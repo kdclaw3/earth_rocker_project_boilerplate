@@ -1,6 +1,6 @@
 {
 	"name": "earth_rocker_project_boilerplate",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "sailsjs 1.0+, react 16+, react material-ui, webpack, webpack-dev-middleware, webpack-hot-middleware",
 	"keywords": [],
 	"dependencies": {
@@ -37,12 +37,10 @@
 		"sails": "^1.0.x",
 		"sails-hook-orm": "^2.0.x",
 		"sails-hook-sockets": "^1.4.x",
-		"webpack": "^4.12.x"
+		"sails-hook-webpackmiddleware": "^x.x.x"
 	},
 	"devDependencies": {
-		"react-hot-loader": "^4.3.x",
-		"webpack-dev-middleware": "^3.1.x",
-		"webpack-hot-middleware": "^2.22.x"
+		"react-hot-loader": "^4.3.x"
 	},
 	"scripts": {
 		"prod": "NODE_ENV=production node app.js",
