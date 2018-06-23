@@ -1,4 +1,5 @@
-# REACT, MATERIAL-UI, SAILS Project Boilerplate &nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE]
+# REACT, MATERIAL-UI, SAILS Project Boilerplate 
+&nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE]
 
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/71/original/opt_mdr_thumbnail.jpg "Material Dashboard Free React")
 
