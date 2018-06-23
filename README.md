@@ -1,3 +1,10 @@
+<style>
+pre.w {
+    background-color: #ffffff !important;
+}
+</style>
+
+
 ## ![REACT, MATERIAL-UI, SAILS Project Boilerplate](https://i.imgur.com/Gm7iImo.png) &nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE]
 
 ### React, Material-UI, Sails Project Boilerplate Stack
@@ -22,8 +29,8 @@ $ npm run-script dev
 
 MIT License, Copyright (c) 2018 Dee Clawson
 
-### Dependencys
-<pre>
+### Dependencies
+```{w}
 <!-- language: lang-none -->
 ┌────────────────────────────────────────────────────────────────────────┐
 │                                                                        │
@@ -36,7 +43,7 @@ MIT License, Copyright (c) 2018 Dee Clawson
 │ ISC                                      │ 3            │ 6            │
 │ BSD 3 Clause                             │ 1            │ 2            │
 └──────────────────────────────────────────┴──────────────┴──────────────┘
-</pre>
+```
 
 
 [CHANGELOG]: ./package.json
