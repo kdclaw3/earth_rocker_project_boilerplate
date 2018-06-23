@@ -1,4 +1,13 @@
-## ![REACT, MATERIAL-UI, SAILS Project Boilerplate](https://i.imgur.com/Gm7iImo.png) REACT, MATERIAL-UI, SAILS Project Boilerplate </br> &nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE]
+## ![REACT, MATERIAL-UI, SAILS Project Boilerplate](https://i.imgur.com/Gm7iImo.png) &nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE]
+
+### React, Material-UI, Sails Project Boilerplate Stack
+
++ [sailsjs 1.0+] (https://github.com/balderdashy/sails)
++ [react 16+] (https://github.com/facebook/react)
++ [react material-ui] (https://material-ui.com)
++ [webpack] (https://github.com/webpack/webpack)
++ [webpack-dev-middleware] (https://github.com/webpack/webpack-dev-middleware)
++ [webpack-hot-middleware] (https://github.com/webpack-contrib/webpack-hot-middleware)
 
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/71/original/opt_mdr_thumbnail.jpg "Material Dashboard Free React")
 
@@ -8,16 +17,6 @@
 $ npm install
 $ npm run-script dev
 ```
-
-### Stack
-
-+ [sailsjs 1.0+] (https://github.com/balderdashy/sails)
-+ [react 16+] (https://github.com/facebook/react)
-+ [react material-ui] (https://material-ui.com)
-+ [webpack] (https://github.com/webpack/webpack)
-+ [webpack-dev-middleware] (https://github.com/webpack/webpack-dev-middleware)
-+ [webpack-hot-middleware] (https://github.com/webpack-contrib/webpack-hot-middleware)
-
 
 ### License
 
