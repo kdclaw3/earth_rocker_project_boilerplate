@@ -63,6 +63,7 @@
 	},
 	"optionalDependencies": {
 		"eslint": "^4.19.x",
+		"eslint-plugin-babel": "^5.1.0",
 		"eslint-plugin-react": "^7.9.x"
 	}
 }
