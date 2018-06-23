@@ -1,10 +1,3 @@
-<style>
-pre.w {
-    background-color: #ffffff !important;
-}
-</style>
-
-
 ## ![REACT, MATERIAL-UI, SAILS Project Boilerplate](https://i.imgur.com/Gm7iImo.png) &nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE]
 
 ### React, Material-UI, Sails Project Boilerplate Stack
@@ -15,6 +8,7 @@ pre.w {
 + [webpack] (https://github.com/webpack/webpack)
 + [webpack-dev-middleware] (https://github.com/webpack/webpack-dev-middleware)
 + [webpack-hot-middleware] (https://github.com/webpack-contrib/webpack-hot-middleware)
+
 
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/71/original/opt_mdr_thumbnail.jpg "Material Dashboard Free React")
 
@@ -30,7 +24,7 @@ $ npm run-script dev
 MIT License, Copyright (c) 2018 Dee Clawson
 
 ### Dependencies
-```{w}
+<pre>
 <!-- language: lang-none -->
 ┌────────────────────────────────────────────────────────────────────────┐
 │                                                                        │
@@ -43,7 +37,7 @@ MIT License, Copyright (c) 2018 Dee Clawson
 │ ISC                                      │ 3            │ 6            │
 │ BSD 3 Clause                             │ 1            │ 2            │
 └──────────────────────────────────────────┴──────────────┴──────────────┘
-```
+</pre>
 
 
 [CHANGELOG]: ./package.json
