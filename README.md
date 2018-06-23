@@ -41,3 +41,7 @@ MIT License, Copyright (c) 2018 Dee Clawson
 </pre>
 
 
+[CHANGELOG]: ./package.json
+[LICENSE]: ./LICENSE
+[version-badge]: https://img.shields.io/badge/version-0.0.2-blue.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
