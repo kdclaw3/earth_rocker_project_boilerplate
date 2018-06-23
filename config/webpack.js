@@ -90,10 +90,6 @@ module.exports.webpack = {
 				]
 			},
 			{
-				test: /\.less$/,
-				use: ['style-loader', 'css-loader', 'less-loader']
-			},
-			{
 				test: /\.(png|svg|jpg|gif)$/,
 				use: [
 					'file-loader'
@@ -120,7 +116,6 @@ module.exports.webpack = {
 				'NODE_ENV': JSON.stringify('development')
 			}
 		}),
-
 		new CopyWebpackPlugin([
 			{
 				ignore: ['.DS_Store'],
