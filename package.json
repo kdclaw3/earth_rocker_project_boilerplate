@@ -1,8 +1,17 @@
 {
 	"name": "earth_rocker_project_boilerplate",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "sailsjs 1.0+, react 16+, react material-ui, webpack, webpack-dev-middleware, webpack-hot-middleware",
-	"keywords": [],
+	"keywords": [
+		"sails",
+		"webpack",
+		"react",
+		"material-ui",
+		"material ui",
+		"webpack dev middleware",
+		"webpack hot middleware",
+		"react-hot-loader"
+	],
 	"dependencies": {
 		"@material-ui/core": "1.2.x",
 		"@material-ui/icons": "1.1.x",
@@ -19,6 +28,7 @@
 		"babel-plugin-transform-class-properties": "^6.24.x",
 		"babel-plugin-transform-object-rest-spread": "^6.26.x",
 		"babel-preset-env": "^1.7.x",
+		"babel-preset-minify": "^0.5.0-alpha.a24dd066",
 		"babel-preset-react": "^6.24.x",
 		"case-sensitive-paths-webpack-plugin": "^2.1.x",
 		"chartist": "0.11.x",
@@ -43,8 +53,8 @@
 		"react-hot-loader": "^4.3.x"
 	},
 	"scripts": {
-		"prod": "NODE_ENV=production node app.js",
 		"dev": "NODE_ENV=development node app.js",
+		"prod": "NODE_ENV=production node app.js",
 		"test": "npm run lint && npm run custom-tests && echo 'Done.'",
 		"lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
 		"custom-tests": "echo \"(No other custom tests yet.)\" && echo"

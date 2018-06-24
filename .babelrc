@@ -3,6 +3,11 @@
 		"env",
 		"react"
 	],
+	"env": {
+		"production": {
+			"presets": ["minify"]
+		}
+	},
 	"plugins": [
 		"react-hot-loader/babel",
 		"transform-class-properties",
