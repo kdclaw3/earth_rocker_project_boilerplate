@@ -48,13 +48,14 @@
 		"sails": "^1.0.x",
 		"sails-hook-orm": "^2.0.x",
 		"sails-hook-sockets": "^1.4.x",
-		"sails-hook-webpackmiddleware": "x.x.x",
 		"webpack": "^4.14.x",
+		"webpack-bundle-analyzer": "^2.13.1",
 		"webpack-cli": "^3.0.x",
 		"webpack-merge": "^4.1.x"
 	},
 	"devDependencies": {
 		"react-hot-loader": "^4.3.x",
+		"sails-hook-webpackmiddleware": "x.x.x",
 		"webpack-dev-middleware": "^3.1.x",
 		"webpack-hot-middleware": "^2.22.x"
 	},

@@ -42,7 +42,7 @@ module.exports = {
 			{
 				test: /\.jsx?$/,
 				loader: ['babel-loader'],
-				exclude: /node_modules(?!\/(something|something-else))/
+				exclude: /node_modules(?!\/(lodash|something-else))/
 			},
 			{
 				test: /\.css$/,
