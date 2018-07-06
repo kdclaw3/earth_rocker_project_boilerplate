@@ -16,6 +16,8 @@
 ### Install
 
 ```sh
+$ git clone https://github.com/kdclaw3/earth_rocker_project_boilerplate.git
+$ cd earth_rocker_project_boilerplate
 $ npm install
 ```
 
