@@ -48,7 +48,7 @@
 		"sails": "^1.0.x",
 		"sails-hook-orm": "^2.0.x",
 		"sails-hook-sockets": "^1.4.x",
-		"webpack": "^4.14.x",
+		"webpack": "^4.15.x",
 		"webpack-bundle-analyzer": "^2.13.1",
 		"webpack-cli": "^3.0.x",
 		"webpack-merge": "^4.1.x"
