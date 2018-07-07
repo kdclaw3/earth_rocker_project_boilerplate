@@ -40,12 +40,12 @@
 		"forever": "^0.15.x",
 		"mini-css-extract-plugin": "^0.4.x",
 		"perfect-scrollbar": "1.4.x",
-		"prop-types": "^15.6.2",
+		"prop-types": "^15.6.x",
 		"react": "16.4.x",
 		"react-chartist": "0.13.x",
 		"react-dom": "16.4.x",
 		"react-google-maps": "9.4.x",
-		"react-popper": "^1.0.0",
+		"react-popper": "^1.0.x",
 		"react-router-dom": "4.3.x",
 		"sails": "^1.0.x",
 		"sails-hook-orm": "^2.0.x",
@@ -57,7 +57,7 @@
 	"devDependencies": {
 		"react-hot-loader": "^4.3.x",
 		"sails-hook-webpackmiddleware": "x.x.x",
-		"webpack-bundle-analyzer": "^2.13.1"
+		"webpack-bundle-analyzer": "^2.13.x"
 	},
 	"scripts": {
 		"dev": "NODE_ENV=development node app.js",
