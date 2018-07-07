@@ -21,10 +21,7 @@
 		"plugin:react/recommended"
 	],
 	"rules": {
-		"indent": [
-			"error",
-			"tab"
-		],
+		"indent": ["error","tab"],
 		"no-tabs": 0,
 		"no-console": "warn",
 		"no-unused-vars": "warn"
