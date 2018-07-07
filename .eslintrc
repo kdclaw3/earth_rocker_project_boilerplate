@@ -1,0 +1,29 @@
+{
+	"parser": "babel-eslint",
+	"env": {
+		"node": true
+  },
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false,
+		"ecmaFeatures": {
+				"jsx": true,
+				"experimentalObjectRestSpread": true
+		}
+	},
+	"plugins": [
+		"react"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-tabs": 0,
+		"no-console": "warn",
+		"no-unused-vars": "warn"
+	}
+}

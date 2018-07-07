@@ -7,7 +7,7 @@ import App from "routes/index.jsx";
 
 const render = (TheApp) => {
 	ReactDOM.render(
-			<TheApp />, document.getElementById("root")
+		<TheApp />, document.getElementById("root")
 	);
 }
 
