@@ -6,6 +6,7 @@
 + [sailsjs hook webpack middleware] (https://github.com/kdclaw3/sails-hook-webpackmiddleware)
 + [react 16+] (https://github.com/facebook/react)
 + [react material-ui] (https://material-ui.com)
++ [material dashboard react] (https://github.com/creativetimofficial/material-dashboard-react)
 + [webpack] (https://github.com/webpack/webpack)
 + [webpack-dev-middleware] (https://github.com/webpack/webpack-dev-middleware)
 + [webpack-hot-middleware] (https://github.com/webpack-contrib/webpack-hot-middleware)

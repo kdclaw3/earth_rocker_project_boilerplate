@@ -189,8 +189,8 @@ Google+: <https://plus.google.com/+CreativetimPage>
 
 Instagram: <https://instagram.com/creativetimofficial>
 
-[CHANGELOG]: ./CHANGELOG.md
+[CHANGELOG]: https://github.com/creativetimofficial/material-dashboard-react/CHANGELOG.md
 
-[LICENSE]: ./LICENSE.md
+[LICENSE]: https://github.com/creativetimofficial/material-dashboard-react/LICENSE.md
 [version-badge]: https://img.shields.io/badge/version-1.3.0-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
