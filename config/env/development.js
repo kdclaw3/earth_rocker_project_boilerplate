@@ -1,13 +1,13 @@
 /**
- * Development environment settings
+ *  Development environment settings
  * (sails.config.*)
  *
  * What you see below is a quick outline of the built-in settings you need
- * to configure your Sails app for development.  The configuration in this file
- * is only used in your development environment, i.e. when you lift your app using:
+ * to configure your Sails app for  development.  The configuration in this file
+ * is only used in your  development environment, i.e. when you lift your app using:
  *
  * ```
- * NODE_ENV=development node app
+ * NODE_ENV= development node app
  * ```
  *
  * > If you're using git as a version control solution for your Sails app,
@@ -21,9 +21,10 @@
 
 module.exports = {
 
+
 	/**************************************************************************
 	*                                                                         *
-	* Tell Sails what database(s) it should use in development.                *
+	* Tell Sails what database(s) it should use in  development.                *
 	*                                                                         *
 	* (https://sailsjs.com/config/datastores)                                 *
 	*                                                                         *
@@ -32,7 +33,7 @@ module.exports = {
 
 		/***************************************************************************
 		*                                                                          *
-		* Configure your default development database.                              *
+		* Configure your default  development database.                              *
 		*                                                                          *
 		* 1. Choose an adapter:                                                    *
 		*    https://sailsjs.com/plugins/databases                                 *
@@ -59,15 +60,15 @@ module.exports = {
 			//--------------------------------------------------------------------------
 
 			/****************************************************************************
-			*                                                                           *
+			*                                                                           *
 			* More adapter-specific options                                             *
-			*                                                                           *
+			*                                                                           *
 			* > For example, for some hosted PostgreSQL providers (like Heroku), the    *
 			* > extra `ssl: true` option is mandatory and must be provided.             *
-			*                                                                           *
-			* More info:                                                                *
-			* https://sailsjs.com/config/datastores                                     *
-			*                                                                           *
+			*                                                                           *
+			* More info:                                                                *
+			* https://sailsjs.com/config/datastores                                     *
+			*                                                                           *
 			****************************************************************************/
 			// ssl: true,
 
@@ -75,12 +76,14 @@ module.exports = {
 
 	},
 
+
+
 	models: {
 
 		/***************************************************************************
 		*                                                                          *
 		* To help avoid accidents, Sails automatically sets the automigration      *
-		* strategy to "safe" when your app lifts in development mode.               *
+		* strategy to "safe" when your app lifts in  development mode.               *
 		* (This is just here as a reminder.)                                       *
 		*                                                                          *
 		* More info:                                                               *
@@ -91,7 +94,7 @@ module.exports = {
 
 		/***************************************************************************
 		*                                                                          *
-		* If, in development, this app has access to physical-layer CASCADE         *
+		* If, in  development, this app has access to physical-layer CASCADE         *
 		* constraints (e.g. PostgreSQL or MySQL), then set those up in the         *
 		* database and uncomment this to disable Waterline's `cascadeOnDestroy`    *
 		* polyfill.  (Otherwise, if you are using a databse like Mongo, you might  *
@@ -111,7 +114,7 @@ module.exports = {
 	* > You'll also want to disable any other blueprint routes if you are not *
 	* > actually using them (e.g. "actions" and "rest") -- but you can do     *
 	* > that in `config/blueprints.js`, since you'll want to disable them in  *
-	* > all environments (not just in development.)                            *
+	* > all environments (not just in  development.)                            *
 	*                                                                         *
 	***************************************************************************/
 	blueprints: {
@@ -122,7 +125,7 @@ module.exports = {
 
 	/***************************************************************************
 	*                                                                          *
-	* Configure your security settings for development.                         *
+	* Configure your security settings for  development.                         *
 	*                                                                          *
 	* IMPORTANT:                                                               *
 	* If web browsers will be communicating with your app, be sure that        *
@@ -140,7 +143,7 @@ module.exports = {
 		* `allowOrigins` whitelist below.  This sets which "origins" are allowed   *
 		* to send cross-domain (CORS) requests to your Sails app.                  *
 		*                                                                          *
-		* > Replace "https://example.com" with the URL of your development server.  *
+		* > Replace "https://example.com" with the URL of your  development server.  *
 		* > Be sure to use the right protocol!  ("http://" vs. "https://")         *
 		*                                                                          *
 		***************************************************************************/
@@ -156,19 +159,19 @@ module.exports = {
 
 	/***************************************************************************
 	*                                                                          *
-	* Configure how your app handles sessions in development.                   *
+	* Configure how your app handles sessions in  development.                   *
 	*                                                                          *
 	* (https://sailsjs.com/config/session)                                     *
 	*                                                                          *
 	* > If you have disabled the "session" hook, then you can safely remove    *
-	* > this section from your `config/env/development.js` file.                *
+	* > this section from your `config/env/ development.js` file.                *
 	*                                                                          *
 	***************************************************************************/
 	session: {
 
 		/***************************************************************************
 		*                                                                          *
-		* development session store configuration.                                  *
+		*  development session store configuration.                                  *
 		*                                                                          *
 		* Uncomment the following lines to finish setting up a package called      *
 		* "@sailshq/connect-redis" that will use Redis to handle session data.     *
@@ -198,7 +201,7 @@ module.exports = {
 
 		/***************************************************************************
 		*                                                                          *
-		* development configuration for the session ID cookie.                      *
+		*  development configuration for the session ID cookie.                      *
 		*                                                                          *
 		* Tell browsers (or other user agents) to ensure that session ID cookies   *
 		* are always transmitted via HTTPS, and that they expire 24 hours after    *
@@ -210,7 +213,7 @@ module.exports = {
 		* configured in order for `secure: true` to work.                          *
 		*                                                                          *
 		* > While you might want to increase or decrease the `maxAge` or provide   *
-		* > other options, you should always set `secure: true` in development      *
+		* > other options, you should always set `secure: true` in  development      *
 		* > if the app is being served over HTTPS.                                 *
 		*                                                                          *
 		* Read more:                                                               *
@@ -228,12 +231,12 @@ module.exports = {
 
 	/**************************************************************************
 	*                                                                          *
-	* Set up Socket.io for your development environment.                        *
+	* Set up Socket.io for your  development environment.                        *
 	*                                                                          *
 	* (https://sailsjs.com/config/sockets)                                     *
 	*                                                                          *
 	* > If you have disabled the "sockets" hook, then you can safely remove    *
-	* > this section from your `config/env/development.js` file.                *
+	* > this section from your `config/env/ development.js` file.                *
 	*                                                                          *
 	***************************************************************************/
 	sockets: {
@@ -247,10 +250,9 @@ module.exports = {
 		* > Be sure to use the right protocol!  ("http://" vs. "https://")         *
 		*                                                                          *
 		***************************************************************************/
-		// onlyAllowOrigins: [
-		//   'https://example.com',
-		//   'https://staging.example.com',
-		// ],
+		onlyAllowOrigins: [
+			'https://localhost:1337'
+		],
 
 
 		/***************************************************************************
@@ -283,7 +285,7 @@ module.exports = {
 
 	/**************************************************************************
 	*                                                                         *
-	* Set the development log level.                                           *
+	* Set the  development log level.                                           *
 	*                                                                         *
 	* (https://sailsjs.com/config/log)                                        *
 	*                                                                         *
@@ -298,7 +300,7 @@ module.exports = {
 
 		/***************************************************************************
 		*                                                                          *
-		* The number of milliseconds to cache static assets in development.         *
+		* The number of milliseconds to cache static assets in  development.         *
 		* (the "max-age" to include in the "Cache-Control" response header)        *
 		*                                                                          *
 		***************************************************************************/
@@ -342,7 +344,7 @@ module.exports = {
 	*                                                                         *
 	* Configure an SSL certificate                                            *
 	*                                                                         *
-	* For the safety of your users' data, you should use SSL in development.   *
+	* For the safety of your users' data, you should use SSL in  development.   *
 	* ...But in many cases, you may not actually want to set it up _here_.    *
 	*                                                                         *
 	* Normally, this setting is only relevant when running a single-process   *
@@ -361,8 +363,8 @@ module.exports = {
 
 	/**************************************************************************
 	*                                                                         *
-	* development overrides for any custom settings specific to your app.      *
-	* (for example, development credentials for 3rd party APIs like Stripe)    *
+	*  development overrides for any custom settings specific to your app.      *
+	* (for example,  development credentials for 3rd party APIs like Stripe)    *
 	*                                                                         *
 	* > See config/custom.js for more info on how to configure these options. *
 	*                                                                         *

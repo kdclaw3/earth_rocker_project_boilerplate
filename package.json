@@ -45,7 +45,7 @@
 		"react-chartist": "0.13.x",
 		"react-dom": "16.4.x",
 		"react-google-maps": "9.4.x",
-		"react-popper": "^1.0.x",
+		"react-popper": "^0.10.x",
 		"react-router-dom": "4.3.x",
 		"sails": "^1.0.x",
 		"sails-hook-orm": "^2.0.x",
