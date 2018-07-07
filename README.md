@@ -46,22 +46,22 @@ MIT License, Copyright (c) 2018 Dee Clawson
 <!-- language: lang-none -->
 ┌────────────────────────────────────────────────────────────────────────┐
 │                                                                        │
-│                            Licenses (1169)                             │
+│                            Licenses (1093)                             │
 │                                                                        │
 ├──────────────────────────────────────────┬──────────────┬──────────────┤
 │ License                                  │ Number       │ %            │
 ├──────────────────────────────────────────┼──────────────┼──────────────┤
-│ MIT                                      │ 1000         │ 85           │
-│ ISC                                      │ 79           │ 6            │
-│ BSD 3 Clause                             │ 32           │ 2            │
+│ MIT                                      │ 931          │ 85           │
+│ ISC                                      │ 79           │ 7            │
+│ BSD 3 Clause                             │ 30           │ 2            │
 │ Apache 2.0                               │ 21           │ 1            │
-│ BSD 2 Clause                             │ 11           │ 0            │
-│ CC0                                      │ 11           │ 0            │
+│ BSD 2 Clause                             │ 10           │ 0            │
+│ CC0                                      │ 8            │ 0            │
 │ BSD                                      │ 3            │ 0            │
 │ WTFPL                                    │ 3            │ 0            │
 │ Apache                                   │ 2            │ 0            │
-│ CC BY 4.0                                │ 2            │ 0            │
 │ Zlib                                     │ 2            │ 0            │
+│ CC BY 4.0                                │ 1            │ 0            │
 │ GPL 2.0                                  │ 1            │ 0            │
 │ Public Domain                            │ 1            │ 0            │
 │ SEE LICENSE IN LICENSE                   │ 1            │ 0            │

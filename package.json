@@ -35,7 +35,7 @@
 		"classnames": "2.2.x",
 		"clean-webpack-plugin": "^0.1.x",
 		"copy-webpack-plugin": "^4.5.x",
-		"css-loader": "^0.28.x",
+		"css-loader": "^1.0.x",
 		"file-loader": "^1.1.x",
 		"forever": "^0.15.x",
 		"mini-css-extract-plugin": "^0.4.x",
@@ -49,15 +49,13 @@
 		"sails-hook-orm": "^2.0.x",
 		"sails-hook-sockets": "^1.4.x",
 		"webpack": "^4.15.x",
-		"webpack-bundle-analyzer": "^2.13.1",
 		"webpack-cli": "^3.0.x",
 		"webpack-merge": "^4.1.x"
 	},
 	"devDependencies": {
 		"react-hot-loader": "^4.3.x",
 		"sails-hook-webpackmiddleware": "x.x.x",
-		"webpack-dev-middleware": "^3.1.x",
-		"webpack-hot-middleware": "^2.22.x"
+		"webpack-bundle-analyzer": "^2.13.1"
 	},
 	"scripts": {
 		"dev": "NODE_ENV=development node app.js",
@@ -74,7 +72,7 @@
 	"author": "Dee Clawson et al.",
 	"license": "MIT",
 	"engines": {
-		"node": ">=10.4"
+		"node": ">=10.6"
 	},
 	"optionalDependencies": {
 		"eslint": "^4.19.x",
