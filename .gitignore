@@ -131,5 +131,3 @@ lib-cov
 *.pid
 package-lock.json
 .eslintrc
-
-pro
