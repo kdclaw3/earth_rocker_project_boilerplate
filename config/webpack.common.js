@@ -62,9 +62,6 @@ module.exports = {
 	},
 
 	plugins: [
-		new webpack.DefinePlugin({
-			"require.specified": "require.resolve"
-		}),
 		new CleanWebpackPlugin(path.resolve(__dirname, OUTPUT_DIR), {
 			root: path.resolve(__dirname, '..'),
 			verbose: true
@@ -80,7 +77,7 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			// Options similar to the same options in webpackOptions.output
 			// both options are optional
-			filename: "styles.css"
+			filename: "style.[name].css",
 			//chunkFilename: "[id].css"
 		})
 	]
