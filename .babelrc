@@ -1,17 +1,12 @@
 {
 	"presets": [
-		"env",
-		"react"
+		"@babel/preset-env",
+		"@babel/preset-react"
 	],
-	"env": {
-		"production": {
-			"presets": ["minify"]
-		}
-	},
 	"plugins": [
 		"react-hot-loader/babel",
-		"transform-class-properties",
-		"transform-object-rest-spread",
+		"@babel/plugin-proposal-class-properties",
+		"@babel/plugin-proposal-object-rest-spread",
 		["module-resolver", {
 			"root": ["./client/src"]
 		}]

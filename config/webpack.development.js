@@ -14,13 +14,15 @@ module.exports.webpackdevelopment = merge(common, {
 
 	mode: 'development',
 
+	devtool: 'eval',
+
 	entry: {
 		main: ['react-hot-loader/patch', path.resolve(__dirname, APP_DIR + 'index.jsx'), 'webpack-hot-middleware/client']
 	},
 
 	plugins: [
 		//new BundleAnalyzerPlugin(),
-		new webpack.HotModuleReplacementPlugin(),
+		new webpack.HotModuleReplacementPlugin()
 	]
 
 });
