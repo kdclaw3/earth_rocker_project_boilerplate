@@ -1,4 +1,4 @@
-## ![REACT, MATERIAL-UI, SAILS Project Boilerplate](https://i.imgur.com/Gm7iImo.png) &nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE]
+## ![REACT, MATERIAL-UI, SAILS Project Boilerplate](https://i.imgur.com/Gm7iImo.png) &nbsp; [![version][version-badge]][CHANGELOG] &nbsp; [![license][license-badge]][LICENSE] &nbsp; [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkdclaw3%2Fearth_rocker_project_boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkdclaw3%2Fearth_rocker_project_boilerplate?ref=badge_shield)
 
 ### React, Material-UI, Sails Project Boilerplate Stack
 
@@ -43,31 +43,7 @@ $ npm run-script prod
 MIT License, Copyright (c) 2018 Dee Clawson
 
 ### Dependencies
-<pre>
-<!-- language: lang-none -->
-┌────────────────────────────────────────────────────────────────────────┐
-│                                                                        │
-│                            Licenses (1120)                             │
-│                                                                        │
-├──────────────────────────────────────────┬──────────────┬──────────────┤
-│ License                                  │ Number       │ %            │
-├──────────────────────────────────────────┼──────────────┼──────────────┤
-│ MIT                                      │ 956          │ 85           │
-│ ISC                                      │ 80           │ 7            │
-│ BSD 3 Clause                             │ 31           │ 2            │
-│ Apache 2.0                               │ 20           │ 1            │
-│ BSD 2 Clause                             │ 12           │ 1            │
-│ CC0                                      │ 8            │ 0            │
-│ WTFPL                                    │ 3            │ 0            │
-│ Apache                                   │ 2            │ 0            │
-│ BSD                                      │ 2            │ 0            │
-│ Zlib                                     │ 2            │ 0            │
-│ CC BY 4.0                                │ 1            │ 0            │
-│ GPL 2.0                                  │ 1            │ 0            │
-│ Public Domain                            │ 1            │ 0            │
-│ SEE LICENSE IN LICENSE                   │ 1            │ 0            │
-└──────────────────────────────────────────┴──────────────┴──────────────┘
-</pre>
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkdclaw3%2Fearth_rocker_project_boilerplate.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkdclaw3%2Fearth_rocker_project_boilerplate?ref=badge_large)
 
 
 [CHANGELOG]: ./package.json
