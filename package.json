@@ -77,7 +77,7 @@
 		"node": ">=10.6"
 	},
 	"optionalDependencies": {
-		"babel-eslint": "^8.2.5",
+		"babel-eslint": "^8.2.x",
 		"eslint": "^4.19.x",
 		"eslint-plugin-react": "^7.10.x"
 	}
