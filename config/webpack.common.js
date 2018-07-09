@@ -42,7 +42,7 @@ module.exports = {
 			{
 				test: /\.jsx?$/,
 				loader: ['babel-loader'],
-				exclude: /node_modules(?!\/(lodash|something-else))/
+				exclude: /(node_modules|lowdash)/,
 			},
 			{
 				test: /\.css$/,
@@ -62,6 +62,9 @@ module.exports = {
 	},
 
 	plugins: [
+		new webpack.ProgressPlugin({ 
+			profile: false 
+		}),
 		new CleanWebpackPlugin(path.resolve(__dirname, OUTPUT_DIR), {
 			root: path.resolve(__dirname, '..'),
 			verbose: true
@@ -77,7 +80,7 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			// Options similar to the same options in webpackOptions.output
 			// both options are optional
-			filename: "style.[name].css",
+			filename: "style.[name].css"
 			//chunkFilename: "[id].css"
 		})
 	]
