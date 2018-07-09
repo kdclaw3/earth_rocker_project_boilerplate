@@ -1,7 +1,8 @@
 {
 	"parser": "babel-eslint",
 	"env": {
-		"node": true
+		"node": true,
+		"browser": true
 	},
 	"parserOptions": {
 		"ecmaVersion": 6,
@@ -21,7 +22,7 @@
 		"plugin:react/recommended"
 	],
 	"rules": {
-		"indent": ["error","tab"],
+		"indent": ["warn","tab"],
 		"no-tabs": 0,
 		"no-console": "warn",
 		"no-unused-vars": "warn"
