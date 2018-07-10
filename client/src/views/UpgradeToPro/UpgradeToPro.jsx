@@ -28,13 +28,13 @@ const styles = {
 		}
 	},
 	cardTitleWhite: {
-		color: '#FFFFFF',
-		marginTop: '0px',
-		minHeight: 'auto',
-		fontWeight: '300',
-		fontFamily: '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
-		marginBottom: '3px',
-		textDecoration: 'none',
+		'color': '#FFFFFF',
+		'marginTop': '0px',
+		'minHeight': 'auto',
+		'fontWeight': '300',
+		'fontFamily': '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
+		'marginBottom': '3px',
+		'textDecoration': 'none',
 		'& small': {
 			color: '#777',
 			fontSize: '65%',
@@ -50,14 +50,14 @@ const styles = {
 		MsOverflowStyle: '-ms-autohiding-scrollbar'
 	},
 	table: {
-		width: '100%',
-		maxWidth: '100%',
-		marginBottom: '1rem',
-		backgroundColor: 'transparent',
-		borderCollapse: 'collapse',
-		display: 'table',
-		borderSpacing: '2px',
-		borderColor: 'grey',
+		'width': '100%',
+		'maxWidth': '100%',
+		'marginBottom': '1rem',
+		'backgroundColor': 'transparent',
+		'borderCollapse': 'collapse',
+		'display': 'table',
+		'borderSpacing': '2px',
+		'borderColor': 'grey',
 		'& thdead tr th': {
 			fontSize: '1.063rem',
 			padding: '12px 8px',

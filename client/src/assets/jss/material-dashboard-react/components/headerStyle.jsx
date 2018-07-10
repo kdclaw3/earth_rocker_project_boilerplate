@@ -36,11 +36,11 @@ const headerStyle = theme => ({
 	},
 	title: {
 		...defaultFont,
-		lineHeight: '30px',
-		fontSize: '18px',
-		borderRadius: '3px',
-		textTransform: 'none',
-		color: 'inherit',
+		'lineHeight': '30px',
+		'fontSize': '18px',
+		'borderRadius': '3px',
+		'textTransform': 'none',
+		'color': 'inherit',
 		'&:hover,&:focus': {
 			background: 'transparent'
 		}

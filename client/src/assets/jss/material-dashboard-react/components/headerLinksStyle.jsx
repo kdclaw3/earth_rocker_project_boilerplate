@@ -12,13 +12,13 @@ const headerLinksStyle = theme => ({
 			marginTop: '0'
 		},
 		[theme.breakpoints.down('sm')]: {
-			margin: '10px 15px !important',
-			float: 'none !important',
-			paddingTop: '1px',
-			paddingBottom: '1px',
-			padding: '0!important',
-			width: '60%',
-			marginTop: '40px',
+			'margin': '10px 15px !important',
+			'float': 'none !important',
+			'paddingTop': '1px',
+			'paddingBottom': '1px',
+			'padding': '0!important',
+			'width': '60%',
+			'marginTop': '40px',
 			'& input': {
 				color: '#FFFFFF'
 			}
@@ -32,9 +32,9 @@ const headerLinksStyle = theme => ({
 	},
 	buttonLink: {
 		[theme.breakpoints.down('sm')]: {
-			display: 'flex',
-			margin: '10px 15px 0',
-			width: '-webkit-fill-available',
+			'display': 'flex',
+			'margin': '10px 15px 0',
+			'width': '-webkit-fill-available',
 			'& svg': {
 				width: '24px',
 				height: '30px',
@@ -48,9 +48,9 @@ const headerLinksStyle = theme => ({
 	},
 	searchButton: {
 		[theme.breakpoints.down('sm')]: {
-			top: '-50px !important',
-			marginRight: '22px',
-			float: 'right'
+			'top': '-50px !important',
+			'marginRight': '22px',
+			'float': 'right'
 		}
 	},
 	margin: {

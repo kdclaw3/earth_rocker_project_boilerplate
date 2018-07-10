@@ -9,10 +9,10 @@ const dashboardStyle = {
 		height: '16px'
 	},
 	stats: {
-		color: '#999999',
-		display: 'inline-flex',
-		fontSize: '12px',
-		lineHeight: '22px',
+		'color': '#999999',
+		'display': 'inline-flex',
+		'fontSize': '12px',
+		'lineHeight': '22px',
 		'& svg': {
 			top: '4px',
 			width: '16px',
@@ -37,13 +37,13 @@ const dashboardStyle = {
 		marginBottom: '0'
 	},
 	cardTitle: {
-		color: '#3C4858',
-		marginTop: '0px',
-		minHeight: 'auto',
-		fontWeight: '300',
-		fontFamily: '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
-		marginBottom: '3px',
-		textDecoration: 'none',
+		'color': '#3C4858',
+		'marginTop': '0px',
+		'minHeight': 'auto',
+		'fontWeight': '300',
+		'fontFamily': '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
+		'marginBottom': '3px',
+		'textDecoration': 'none',
 		'& small': {
 			color: '#777',
 			fontSize: '65%',
@@ -52,13 +52,13 @@ const dashboardStyle = {
 		}
 	},
 	cardTitleWhite: {
-		color: '#FFFFFF',
-		marginTop: '0px',
-		minHeight: 'auto',
-		fontWeight: '300',
-		fontFamily: '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
-		marginBottom: '3px',
-		textDecoration: 'none',
+		'color': '#FFFFFF',
+		'marginTop': '0px',
+		'minHeight': 'auto',
+		'fontWeight': '300',
+		'fontFamily': '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
+		'marginBottom': '3px',
+		'textDecoration': 'none',
 		'& small': {
 			color: '#777',
 			fontSize: '65%',

@@ -8,11 +8,11 @@ import {
 } from 'assets/jss/material-dashboard-react.jsx';
 const cardHeaderStyle = {
 	cardHeader: {
-		padding: '0.75rem 1.25rem',
-		marginBottom: '0',
-		borderBottom: 'none',
-		background: 'transparent',
-		zIndex: '3 !important',
+		'padding': '0.75rem 1.25rem',
+		'marginBottom': '0',
+		'borderBottom': 'none',
+		'background': 'transparent',
+		'zIndex': '3 !important',
 		'&$cardHeaderPlain,&$cardHeaderIcon,&$cardHeaderStats,&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader': {
 			margin: '0 15px',
 			padding: '0',
@@ -80,37 +80,37 @@ const cardHeaderStyle = {
 		}
 	},
 	warningCardHeader: {
-		color: '#FFFFFF',
+		'color': '#FFFFFF',
 		'&:not($cardHeaderIcon)': {
 			...warningCardHeader
 		}
 	},
 	successCardHeader: {
-		color: '#FFFFFF',
+		'color': '#FFFFFF',
 		'&:not($cardHeaderIcon)': {
 			...successCardHeader
 		}
 	},
 	dangerCardHeader: {
-		color: '#FFFFFF',
+		'color': '#FFFFFF',
 		'&:not($cardHeaderIcon)': {
 			...dangerCardHeader
 		}
 	},
 	infoCardHeader: {
-		color: '#FFFFFF',
+		'color': '#FFFFFF',
 		'&:not($cardHeaderIcon)': {
 			...infoCardHeader
 		}
 	},
 	primaryCardHeader: {
-		color: '#FFFFFF',
+		'color': '#FFFFFF',
 		'&:not($cardHeaderIcon)': {
 			...primaryCardHeader
 		}
 	},
 	roseCardHeader: {
-		color: '#FFFFFF',
+		'color': '#FFFFFF',
 		'&:not($cardHeaderIcon)': {
 			...roseCardHeader
 		}

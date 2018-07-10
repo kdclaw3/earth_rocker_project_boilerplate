@@ -38,6 +38,21 @@
 			{
 				"allowTemplateLiterals": true
 			}
+		],
+		"quote-props": [
+			"error",
+			"consistent-as-needed",
+			{
+				"keywords": true,
+				"numbers": true,
+				"unnecessary": true
+			}
+		],
+		"key-spacing": [
+			"warn",
+			{
+				"afterColon": true
+			}
 		]
 	}
 }

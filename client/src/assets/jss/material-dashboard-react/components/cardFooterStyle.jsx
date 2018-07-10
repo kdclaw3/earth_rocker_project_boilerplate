@@ -19,8 +19,8 @@ const cardFooterStyle = {
 		backgroundColor: 'transparent'
 	},
 	cardFooterStats: {
-		borderTop: '1px solid #eee',
-		marginTop: '20px',
+		'borderTop': '1px solid #eee',
+		'marginTop': '20px',
 		'& svg': {
 			position: 'relative',
 			top: '4px',

@@ -135,13 +135,13 @@ const defaultBoxShadow = {
 };
 
 const title = {
-	color: '#3C4858',
-	textDecoration: 'none',
-	fontWeight: '300',
-	marginTop: '30px',
-	marginBottom: '25px',
-	minHeight: '32px',
-	fontFamily: '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
+	'color': '#3C4858',
+	'textDecoration': 'none',
+	'fontWeight': '300',
+	'marginTop': '30px',
+	'marginBottom': '25px',
+	'minHeight': '32px',
+	'fontFamily': '\'Roboto\', \'Helvetica\', \'Arial\', sans-serif',
 	'& small': {
 		color: '#777',
 		fontSize: '65%',
@@ -152,9 +152,9 @@ const title = {
 
 const cardTitle = {
 	...title,
-	marginTop: '0',
-	marginBottom: '3px',
-	minHeight: 'auto',
+	'marginTop': '0',
+	'marginBottom': '3px',
+	'minHeight': 'auto',
 	'& a': {
 		...title,
 		marginTop: '.625rem',

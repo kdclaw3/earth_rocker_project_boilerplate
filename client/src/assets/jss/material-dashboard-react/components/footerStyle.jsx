@@ -18,14 +18,14 @@ const footerStyle = {
 		fontSize: '12px'
 	},
 	left: {
-		float: 'left!important',
-		display: 'block'
+		'float': 'left!important',
+		'display': 'block'
 	},
 	right: {
-		padding: '15px 0',
-		margin: '0',
-		fontSize: '14px',
-		float: 'right!important'
+		'padding': '15px 0',
+		'margin': '0',
+		'fontSize': '14px',
+		'float': 'right!important'
 	},
 	footer: {
 		bottom: '0',
