@@ -3,7 +3,7 @@
  */
 const path = require('path');
 const webpack = require('webpack');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
@@ -22,7 +22,7 @@ module.exports = {
 					name: 'vendor',
 					priority: -10,
 					test: /node_modules\/(.*)\.js/
-				},
+				}
 			}
 		}
 	},
@@ -30,7 +30,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, OUTPUT_DIR),
 		filename: 'bundle.[name].js',
-		publicPath: "/",
+		publicPath: '/'
 	},
 
 	resolve: {
@@ -42,13 +42,13 @@ module.exports = {
 			{
 				test: /\.jsx?$/,
 				loader: ['babel-loader'],
-				exclude: /(node_modules|lowdash)/,
+				exclude: /(node_modules|lowdash)/
 			},
 			{
 				test: /\.css$/,
 				use: [
 					MiniCssExtractPlugin.loader,
-					"css-loader"
+					'css-loader'
 				]
 			},
 			{
@@ -73,14 +73,14 @@ module.exports = {
 			{
 				ignore: ['.DS_Store'],
 				from : './client/public/',
-				to   : path.resolve(__dirname, '../.tmp/public/'),
-			},
+				to   : path.resolve(__dirname, '../.tmp/public/')
+			}
 		]),
 		new CaseSensitivePathsPlugin(),
 		new MiniCssExtractPlugin({
 			// Options similar to the same options in webpackOptions.output
 			// both options are optional
-			filename: "style.[name].css"
+			filename: 'style.[name].css'
 			//chunkFilename: "[id].css"
 		})
 	]

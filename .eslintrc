@@ -24,10 +24,20 @@
 	"rules": {
 		"strict": 0,
 		"comma-dangle": 1,
-		"indent": ["warn","tab"],
+		"indent": [
+			"warn",
+			"tab"
+		],
 		"no-tabs": 0,
 		"no-console": "warn",
 		"no-unused-vars": "warn",
-		"eqeqeq": "warn"
+		"eqeqeq": "warn",
+		"quotes": [
+			"warn",
+			"single",
+			{
+				"allowTemplateLiterals": true
+			}
+		]
 	}
 }
