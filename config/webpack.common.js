@@ -72,8 +72,8 @@ module.exports = {
 		new CopyWebpackPlugin([
 			{
 				ignore: ['.DS_Store'],
-				from : './client/public/',
-				to   : path.resolve(__dirname, '../.tmp/public/')
+				from: './client/public/',
+				to: path.resolve(__dirname, '../.tmp/public/')
 			}
 		]),
 		new CaseSensitivePathsPlugin(),

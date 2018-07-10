@@ -6,17 +6,17 @@ import {
 
 const dropdownStyle = theme => ({
 	buttonLink: {
-		[theme.breakpoints.down('md')]:{
+		[theme.breakpoints.down('md')]: {
 			display: 'flex',
 			marginLeft: '30px',
 			width: 'auto'
 		}
 	},
-	links:{
+	links: {
 		width: '20px',
 		height: '20px',
 		zIndex: '4',
-		[theme.breakpoints.down('md')]:{
+		[theme.breakpoints.down('md')]: {
 			display: 'block',
 			width: '30px',
 			height: '30px',
