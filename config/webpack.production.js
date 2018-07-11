@@ -21,7 +21,7 @@ module.exports = merge(common, {
 
 	plugins: [
 		//new BundleAnalyzerPlugin(),
-		new MinifyPlugin({},{
+		new MinifyPlugin({}, {
 			comments: false
 		})
 		
