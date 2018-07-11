@@ -9,7 +9,7 @@ const render = (TheApp) => {
 	ReactDOM.render(
 		<TheApp />, document.getElementById('root')
 	);
-}
+};
 
-render(App)
+render(App);
 

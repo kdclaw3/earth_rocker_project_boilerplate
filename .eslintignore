@@ -1,0 +1,6 @@
+# enable linting of the eslint file
+!.eslintrc.js
+
+# exclude files that dont matter
+# /node_modules/* and /bower_components/* in the project root are ignored by default
+.tmp/*

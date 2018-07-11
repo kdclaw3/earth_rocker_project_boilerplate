@@ -30,7 +30,12 @@ module.exports = {
 		'eol-last': ['error', 'always'],
 		'eqeqeq': 'warn',
 		'indent': ['warn', 'tab'],
+		'jsx-quotes': ['warn', 'prefer-double'],
 		'key-spacing': ['warn', {beforeColon: false, afterColon: true}],
+		'no-multi-spaces': 'error',
+		'semi': ['warn', 'always'],
+		'semi-spacing': ['warn', {before: false, after: false}],
+		'semi-style': ['warn', 'last'],
 		'quotes': ['warn', 'single', {allowTemplateLiterals: true}],
 		'quote-props': ['warn', 'consistent-as-needed', {keywords: true, numbers: true, unnecessary: true}]
 
@@ -43,7 +48,6 @@ module.exports = {
 		//override react react/recommended
 
 		//disable react react/recommended
-
 
 	},
 	'globals': {
