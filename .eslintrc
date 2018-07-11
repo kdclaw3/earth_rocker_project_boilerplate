@@ -1,6 +1,7 @@
 {
 	"parser": "babel-eslint",
 	"env": {
+		"es6": true,
 		"node": true,
 		"browser": true
 	},
@@ -10,8 +11,7 @@
 		"allowImportExportEverywhere": false,
 		"codeFrame": false,
 		"ecmaFeatures": {
-			"jsx": true,
-			"experimentalObjectRestSpread": true
+			"jsx": true
 		}
 	},
 	"plugins": [
@@ -53,6 +53,10 @@
 			{
 				"afterColon": true
 			}
+		],
+		"eol-last": [
+			"error",
+			"always"
 		]
 	}
 }
