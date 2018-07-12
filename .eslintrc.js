@@ -4,7 +4,8 @@ module.exports = {
 	'env': {
 		es6: true,
 		node: true,
-		browser: true
+		browser: true,
+		mocha: true
 	},
 	'parserOptions': {
 		ecmaVersion: 6,
@@ -35,17 +36,17 @@ module.exports = {
 		'no-multi-spaces': 'error',
 		'no-trailing-spaces': 'warn',
 		'semi': ['warn', 'always'],
-		'semi-spacing': ['warn', {before: false, after: false}],
+		'semi-spacing': ['warn', {before: false, after: true}],
 		'semi-style': ['warn', 'last'],
-		'quotes': ['warn', 'single', {allowTemplateLiterals: true}],
 		'quote-props': ['warn', 'consistent-as-needed', {keywords: true, numbers: true, unnecessary: true}],
+		'quotes': ['warn', 'single', {allowTemplateLiterals: true}],
 		'yoda': ['warn', 'never', { exceptRange: true }]
 
 		//override eslint eslint:recommended
 
 		//disable eslint eslint:recommended
 
-		//enablereact rules
+		//enable react rules
 
 		//override react react/recommended
 
