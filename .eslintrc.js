@@ -33,11 +33,12 @@ module.exports = {
 		'indent': ['warn', 'tab'],
 		'jsx-quotes': ['warn', 'prefer-double'],
 		'key-spacing': ['warn', {beforeColon: false, afterColon: true}],
-		'no-multi-spaces': 'error',
+		'no-multi-spaces': 'warn',
 		'no-trailing-spaces': 'warn',
 		'semi': ['warn', 'always'],
 		'semi-spacing': ['warn', {before: false, after: true}],
 		'semi-style': ['warn', 'last'],
+		'space-infix-ops': 'warn',
 		'quote-props': ['warn', 'consistent-as-needed', {keywords: true, numbers: true, unnecessary: true}],
 		'quotes': ['warn', 'single', {allowTemplateLiterals: true}],
 		'yoda': ['warn', 'never', { exceptRange: true }]
