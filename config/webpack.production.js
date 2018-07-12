@@ -24,7 +24,7 @@ module.exports = merge(common, {
 		new MinifyPlugin({}, {
 			comments: false
 		})
-		
+
 	]
 
 });

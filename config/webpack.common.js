@@ -62,8 +62,8 @@ module.exports = {
 	},
 
 	plugins: [
-		new webpack.ProgressPlugin({ 
-			profile: false 
+		new webpack.ProgressPlugin({
+			profile: false
 		}),
 		new CleanWebpackPlugin(path.resolve(__dirname, OUTPUT_DIR), {
 			root: path.resolve(__dirname, '..'),
