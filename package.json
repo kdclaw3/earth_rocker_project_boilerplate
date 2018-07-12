@@ -1,6 +1,6 @@
 {
 	"name": "earth_rocker_project_boilerplate",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "sailsjs 1.0+, react 16+, react material-ui, webpack, webpack-dev-middleware, webpack-hot-middleware",
 	"keywords": [
 		"sails",
@@ -48,6 +48,7 @@
 		"react-popper": "^0.10.x",
 		"react-router-dom": "4.3.x",
 		"sails": "^1.0.x",
+		"sails-hook-jobmanager": "^1.0.x",
 		"sails-hook-orm": "^2.0.x",
 		"sails-hook-sockets": "^1.4.x",
 		"webpack": "^4.16.x",
@@ -56,10 +57,11 @@
 	},
 	"devDependencies": {
 		"react-hot-loader": "^4.3.x",
-		"sails-hook-webpackmiddleware": "x.x.x",
+		"sails-hook-webpackmiddleware": "1.0.x",
 		"webpack-bundle-analyzer": "^2.13.x"
 	},
 	"scripts": {
+		"job": "NODE_ENV=jobmanager node app.js",
 		"dev": "NODE_ENV=development node app.js",
 		"prod": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --config ./config/webpack.production.js && NODE_ENV=production ./node_modules/forever/bin/forever app.js",
 		"test": "npm run lint && npm run custom-tests && echo 'Done.'",
