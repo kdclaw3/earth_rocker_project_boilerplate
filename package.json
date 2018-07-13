@@ -39,6 +39,7 @@
 		"file-loader": "^1.1.x",
 		"forever": "^0.15.x",
 		"mini-css-extract-plugin": "^0.4.x",
+		"moment": "^2.22.x",
 		"perfect-scrollbar": "1.4.x",
 		"prop-types": "^15.6.x",
 		"react": "16.4.x",
