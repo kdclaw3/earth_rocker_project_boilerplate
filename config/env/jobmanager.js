@@ -30,7 +30,7 @@ module.exports = {
 	},
 
 	webpackmiddleware: {
-		enabled: true
+		enabled: false
 	},
 
 
