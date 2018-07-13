@@ -7,10 +7,10 @@
 
 module.exports = {
 
-	find(req, res, next) {
+  find (req, res, next) {
 
-		return res.sendFile(`${process.env.PWD}/client/public/index.html`);
+    return res.sendFile(`${process.env.PWD}/client/public/index.html`);
 
-	}
+  }
 
 };
