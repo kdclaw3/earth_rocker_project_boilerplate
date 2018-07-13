@@ -4,6 +4,7 @@
 
 + [sailsjs 1.0+] (https://github.com/balderdashy/sails)
 + [sailsjs hook webpack middleware] (https://github.com/kdclaw3/sails-hook-webpackmiddleware)
++ [sailsjs hook job manager] (https://github.com/kdclaw3/sails-hook-jobmanager)
 + [react 16+] (https://github.com/facebook/react)
 + [react material-ui] (https://material-ui.com)
 + [material dashboard react] (https://github.com/creativetimofficial/material-dashboard-react)
