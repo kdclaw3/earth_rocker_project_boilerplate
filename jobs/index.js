@@ -34,7 +34,7 @@ module.exports = {
 		run: () => {
 			sails.log.info('[JOB MANAGER] this job runs every five minutes on the 1,6,11,16,21 etc...');
 		}
-	}
+	},
 
 	dataCleanup: {
 		interval: 2,

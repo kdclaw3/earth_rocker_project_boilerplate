@@ -19,12 +19,21 @@
  * https://sailsjs.com/docs/concepts/deployment
  */
 
+const path = require('path');
+
 module.exports = {
 
-	custom: {
-		jobmanager: true,
-		webpackmiddleware: false
+	jobmanager: {
+		enabled: true,
+		//path: path.resolve(__dirname, '../../jobs/'),
+		pulse: true
 	},
+
+	webpackmiddleware: {
+		enabled: true
+	},
+
+
 
 	/**************************************************************************
 	*                                                                         *
