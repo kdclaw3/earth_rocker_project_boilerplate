@@ -13,6 +13,22 @@ const OUTPUT_DIR = '../.tmp/public/';
 
 module.exports = {
 
+/*
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  310509c95512893dc661bd3a6b0d2a5d.jpg (336 KiB)
+  bundle.vendor.js (572 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (700 KiB)
+      bundle.vendor.js
+      style.main.css
+      bundle.main.js
+*/
+
+/*
   optimization: {
     runtimeChunk: false,
     splitChunks: {
@@ -24,6 +40,13 @@ module.exports = {
           test: /node_modules\/(.*)\.js/
         }
       }
+    }
+  },
+*/
+
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
     }
   },
 
