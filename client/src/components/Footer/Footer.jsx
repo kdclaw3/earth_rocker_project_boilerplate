@@ -7,8 +7,8 @@ import List from '@material-ui/core/List';
 // core components
 import footerStyle from 'assets/jss/material-dashboard-react/components/footerStyle';
 
-function Footer ({ ...props }) {
-  const { classes } = props;
+function Footer ({...props}) {
+  const {classes} = props;
   return (
     <footer className={classes.footer}>
       <div className={classes.container}>
@@ -49,8 +49,6 @@ function Footer ({ ...props }) {
   );
 }
 
-Footer.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+Footer.propTypes = {classes: PropTypes.object.isRequired};
 
 export default withStyles(footerStyle)(Footer);

@@ -31,7 +31,7 @@ import CardIcon from 'components/Card/CardIcon.jsx';
 import CardBody from 'components/Card/CardBody.jsx';
 import CardFooter from 'components/Card/CardFooter.jsx';
 
-import { bugs, website, server } from 'variables/general';
+import {bugs, website, server} from 'variables/general';
 
 import {
   dailySalesChart,
@@ -42,18 +42,16 @@ import {
 import dashboardStyle from 'assets/jss/material-dashboard-react/views/dashboardStyle.jsx';
 
 class Dashboard extends React.Component {
-  state = {
-    value: 0
-  };
+  state = {value: 0};
   handleChange = (event, value) => {
-    this.setState({ value });
+    this.setState({value});
   };
 
   handleChangeIndex = index => {
-    this.setState({ value: index });
+    this.setState({value: index});
   };
   render () {
-    const { classes } = this.props;
+    const {classes} = this.props;
     return (
       <div>
         <Grid container>
@@ -280,8 +278,6 @@ class Dashboard extends React.Component {
   }
 }
 
-Dashboard.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+Dashboard.propTypes = {classes: PropTypes.object.isRequired};
 
 export default withStyles(dashboardStyle)(Dashboard);

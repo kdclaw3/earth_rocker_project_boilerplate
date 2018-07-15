@@ -12,4 +12,3 @@ const render = TheApp => {
 };
 
 render(App);
-

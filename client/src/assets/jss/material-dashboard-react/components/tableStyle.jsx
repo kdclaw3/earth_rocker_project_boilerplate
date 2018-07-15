@@ -10,27 +10,13 @@ import {
 } from 'assets/jss/material-dashboard-react.jsx';
 
 const tableStyle = theme => ({
-  warningTableHeader: {
-    color: warningColor
-  },
-  primaryTableHeader: {
-    color: primaryColor
-  },
-  dangerTableHeader: {
-    color: dangerColor
-  },
-  successTableHeader: {
-    color: successColor
-  },
-  infoTableHeader: {
-    color: infoColor
-  },
-  roseTableHeader: {
-    color: roseColor
-  },
-  grayTableHeader: {
-    color: grayColor
-  },
+  warningTableHeader: {color: warningColor},
+  primaryTableHeader: {color: primaryColor},
+  dangerTableHeader: {color: dangerColor},
+  successTableHeader: {color: successColor},
+  infoTableHeader: {color: infoColor},
+  roseTableHeader: {color: roseColor},
+  grayTableHeader: {color: grayColor},
   table: {
     marginBottom: '0',
     width: '100%',

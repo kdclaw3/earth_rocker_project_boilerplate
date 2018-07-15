@@ -5,8 +5,8 @@ import withStyles from '@material-ui/core/styles/withStyles';
 // core components
 import typographyStyle from 'assets/jss/material-dashboard-react/components/typographyStyle.jsx';
 
-function Primary ({ ...props }) {
-  const { classes, children } = props;
+function Primary ({...props}) {
+  const {classes, children} = props;
   return (
     <div className={classes.defaultFontStyle + ' ' + classes.primaryText}>
       {children}
@@ -14,8 +14,6 @@ function Primary ({ ...props }) {
   );
 }
 
-Primary.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+Primary.propTypes = {classes: PropTypes.object.isRequired};
 
 export default withStyles(typographyStyle)(Primary);

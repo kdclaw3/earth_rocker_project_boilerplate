@@ -13,7 +13,7 @@ import CardBody from 'components/Card/CardBody.jsx';
 import iconsStyle from 'assets/jss/material-dashboard-react/views/iconsStyle.jsx';
 
 function Icons (props) {
-  const { classes } = props;
+  const {classes} = props;
   return (
     <Grid container>
       <GridItem xs={12} sm={12} md={12}>
@@ -64,8 +64,6 @@ function Icons (props) {
   );
 }
 
-Icons.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+Icons.propTypes = {classes: PropTypes.object.isRequired};
 
 export default withStyles(iconsStyle)(Icons);

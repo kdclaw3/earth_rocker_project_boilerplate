@@ -72,9 +72,7 @@ const sidebarStyle = theme => ({
     'lineHeight': '30px',
     'textDecoration': 'none',
     'backgroundColor': 'transparent',
-    '&,&:hover': {
-      color: '#FFFFFF'
-    }
+    '&,&:hover': {color: '#FFFFFF'}
   },
   logoImage: {
     width: '30px',
@@ -124,9 +122,7 @@ const sidebarStyle = theme => ({
     'position': 'relative',
     'display': 'block',
     'textDecoration': 'none',
-    '&:hover,&:focus,&:visited,&': {
-      color: '#FFFFFF'
-    }
+    '&:hover,&:focus,&:visited,&': {color: '#FFFFFF'}
   },
   itemLink: {
     width: 'auto',
@@ -155,9 +151,7 @@ const sidebarStyle = theme => ({
     fontSize: '14px',
     color: '#FFFFFF'
   },
-  whiteFont: {
-    color: '#FFFFFF'
-  },
+  whiteFont: {color: '#FFFFFF'},
   purple: {
     'backgroundColor': primaryColor,
     ...primaryBoxShadow,

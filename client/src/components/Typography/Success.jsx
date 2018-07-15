@@ -5,8 +5,8 @@ import withStyles from '@material-ui/core/styles/withStyles';
 // core components
 import typographyStyle from 'assets/jss/material-dashboard-react/components/typographyStyle.jsx';
 
-function Success ({ ...props }) {
-  const { classes, children } = props;
+function Success ({...props}) {
+  const {classes, children} = props;
   return (
     <div className={classes.defaultFontStyle + ' ' + classes.successText}>
       {children}
@@ -14,8 +14,6 @@ function Success ({ ...props }) {
   );
 }
 
-Success.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+Success.propTypes = {classes: PropTypes.object.isRequired};
 
 export default withStyles(typographyStyle)(Success);

@@ -50,7 +50,7 @@ const style = {
   }
 };
 function TypographyPage (props) {
-  const { classes } = props;
+  const {classes} = props;
   return (
     <Card>
       <CardHeader color="primary">

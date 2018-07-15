@@ -29,9 +29,7 @@ const dropdownStyle = theme => ({
     ...defaultFont,
     fontSize: '14px'
   },
-  popperClose: {
-    pointerEvents: 'none'
-  },
+  popperClose: {pointerEvents: 'none'},
   pooperResponsive: {
     [theme.breakpoints.down('md')]: {
       'zIndex': '1640',

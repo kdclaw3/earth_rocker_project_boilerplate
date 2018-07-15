@@ -145,36 +145,12 @@ const buttonStyle = {
       background: 'transparent',
       boxShadow: 'none'
     },
-    '&$rose': {
-      '&,&:focus,&:hover,&:visited': {
-        color: roseColor
-      }
-    },
-    '&$primary': {
-      '&,&:focus,&:hover,&:visited': {
-        color: primaryColor
-      }
-    },
-    '&$info': {
-      '&,&:focus,&:hover,&:visited': {
-        color: infoColor
-      }
-    },
-    '&$success': {
-      '&,&:focus,&:hover,&:visited': {
-        color: successColor
-      }
-    },
-    '&$warning': {
-      '&,&:focus,&:hover,&:visited': {
-        color: warningColor
-      }
-    },
-    '&$danger': {
-      '&,&:focus,&:hover,&:visited': {
-        color: dangerColor
-      }
-    }
+    '&$rose': {'&,&:focus,&:hover,&:visited': {color: roseColor}},
+    '&$primary': {'&,&:focus,&:hover,&:visited': {color: primaryColor}},
+    '&$info': {'&,&:focus,&:hover,&:visited': {color: infoColor}},
+    '&$success': {'&,&:focus,&:hover,&:visited': {color: successColor}},
+    '&$warning': {'&,&:focus,&:hover,&:visited': {color: warningColor}},
+    '&$danger': {'&,&:focus,&:hover,&:visited': {color: dangerColor}}
   },
   transparent: {
     '&,&:focus,&:hover': {
@@ -199,12 +175,8 @@ const buttonStyle = {
     lineHeight: '1.5',
     borderRadius: '0.2rem'
   },
-  round: {
-    borderRadius: '30px'
-  },
-  block: {
-    width: '100% !important'
-  },
+  round: {borderRadius: '30px'},
+  block: {width: '100% !important'},
   link: {
     '&,&:hover,&:focus': {
       backgroundColor: 'transparent',
@@ -219,9 +191,7 @@ const buttonStyle = {
     'height': '41px',
     'minWidth': '41px',
     'width': '41px',
-    '& .fab,& .fas,& .far,& .fal,& svg': {
-      marginRight: '0px'
-    },
+    '& .fab,& .fas,& .far,& .fal,& svg': {marginRight: '0px'},
     '&$lg': {
       'height': '57px',
       'minWidth': '57px',

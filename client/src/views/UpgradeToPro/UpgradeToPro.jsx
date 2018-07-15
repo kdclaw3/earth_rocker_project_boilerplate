@@ -23,9 +23,7 @@ const styles = {
       marginTop: '0',
       marginBottom: '0'
     },
-    '& a,& a:hover,& a:focus': {
-      color: '#FFFFFF'
-    }
+    '& a,& a:hover,& a:focus': {color: '#FFFFFF'}
   },
   cardTitleWhite: {
     'color': '#FFFFFF',
@@ -72,17 +70,13 @@ const styles = {
       verticalAlign: 'middle',
       borderTop: '1px solid rgba(0, 0, 0, 0.06)'
     },
-    '& td, & th': {
-      display: 'table-cell'
-    }
+    '& td, & th': {display: 'table-cell'}
   },
-  center: {
-    textAlign: 'center'
-  }
+  center: {textAlign: 'center'}
 };
 
 function UpgradeToPro (props) {
-  const { classes } = props;
+  const {classes} = props;
   return (
     <Grid container justify="center">
       <GridItem xs={12} sm={12} md={8}>

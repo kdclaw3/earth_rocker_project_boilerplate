@@ -10,12 +10,10 @@ import Close from '@material-ui/icons/Close';
 // core components
 import snackbarContentStyle from 'assets/jss/material-dashboard-react/components/snackbarContentStyle.jsx';
 
-function SnackbarContent ({ ...props }) {
-  const { classes, message, color, close, icon } = props;
+function SnackbarContent ({...props}) {
+  const {classes, message, color, close, icon} = props;
   var action = [];
-  const messageClasses = classNames({
-    [classes.iconMessage]: icon !== undefined
-  });
+  const messageClasses = classNames({[classes.iconMessage]: icon !== undefined});
   if (close !== undefined) {
     action = [
       <IconButton

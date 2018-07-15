@@ -5,13 +5,15 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
-// @material-ui/icons
-// core components
+/*
+ * @material-ui/icons
+ * core components
+ */
 
 import cardAvatarStyle from 'assets/jss/material-dashboard-react/components/cardAvatarStyle.jsx';
 
-function CardAvatar ({ ...props }) {
-  const { classes, children, className, plain, profile, ...rest } = props;
+function CardAvatar ({...props}) {
+  const {classes, children, className, plain, profile, ...rest} = props;
   const cardAvatarClasses = classNames({
     [classes.cardAvatar]: true,
     [classes.cardAvatarProfile]: profile,

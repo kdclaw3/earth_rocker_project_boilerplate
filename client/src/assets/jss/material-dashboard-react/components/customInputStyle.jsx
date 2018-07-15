@@ -6,30 +6,16 @@ import {
 } from 'assets/jss/material-dashboard-react.jsx';
 
 const customInputStyle = {
-  disabled: {
-    '&:before': {
-      backgroundColor: 'transparent !important'
-    }
-  },
+  disabled: {'&:before': {backgroundColor: 'transparent !important'}},
   underline: {
     '&:hover:not($disabled):before,&:before': {
       borderColor: '#D2D2D2 !important',
       borderWidth: '1px !important'
     },
-    '&:after': {
-      borderColor: primaryColor
-    }
+    '&:after': {borderColor: primaryColor}
   },
-  underlineError: {
-    '&:after': {
-      borderColor: dangerColor
-    }
-  },
-  underlineSuccess: {
-    '&:after': {
-      borderColor: successColor
-    }
-  },
+  underlineError: {'&:after': {borderColor: dangerColor}},
+  underlineSuccess: {'&:after': {borderColor: successColor}},
   labelRoot: {
     ...defaultFont,
     color: '#AAAAAA !important',
@@ -37,12 +23,8 @@ const customInputStyle = {
     fontSize: '14px',
     lineHeight: '1.42857'
   },
-  labelRootError: {
-    color: dangerColor
-  },
-  labelRootSuccess: {
-    color: successColor
-  },
+  labelRootError: {color: dangerColor},
+  labelRootSuccess: {color: successColor},
   feedback: {
     position: 'absolute',
     top: '18px',
@@ -54,9 +36,7 @@ const customInputStyle = {
     textAlign: 'center',
     pointerEvents: 'none'
   },
-  marginTop: {
-    marginTop: '16px'
-  },
+  marginTop: {marginTop: '16px'},
   formControl: {
     paddingBottom: '10px',
     margin: '27px 0 0 0',

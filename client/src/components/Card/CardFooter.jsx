@@ -10,7 +10,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 // core components
 import cardFooterStyle from 'assets/jss/material-dashboard-react/components/cardFooterStyle.jsx';
 
-function CardFooter ({ ...props }) {
+function CardFooter ({...props}) {
   const {
     classes,
     className,

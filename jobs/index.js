@@ -12,12 +12,12 @@ const daily = 1440;
 module.exports = {
 
   /**
-  *
-  * @param {integer}    interval  //in minutes, minimum interval is 1 minute
-  * @param {date}       start     //time to start the job
-  * @param {function}   run       //function to run
-  *
-  */
+   *
+   * @param {integer}    interval  //in minutes, minimum interval is 1 minute
+   * @param {date}       start     //time to start the job
+   * @param {function}   run       //function to run
+   *
+   */
 
   aJob: {
     interval: hourly,

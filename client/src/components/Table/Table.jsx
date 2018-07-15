@@ -10,8 +10,8 @@ import TableCell from '@material-ui/core/TableCell';
 // core components
 import tableStyle from 'assets/jss/material-dashboard-react/components/tableStyle';
 
-function CustomTable ({ ...props }) {
-  const { classes, tableHead, tableData, tableHeaderColor } = props;
+function CustomTable ({...props}) {
+  const {classes, tableHead, tableData, tableHeaderColor} = props;
   return (
     <div className={classes.tableResponsive}>
       <Table className={classes.table}>
@@ -51,9 +51,7 @@ function CustomTable ({ ...props }) {
   );
 }
 
-CustomTable.defaultProps = {
-  tableHeaderColor: 'gray'
-};
+CustomTable.defaultProps = {tableHeaderColor: 'gray'};
 
 CustomTable.propTypes = {
   classes: PropTypes.object.isRequired,

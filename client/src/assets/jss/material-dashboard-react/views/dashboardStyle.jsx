@@ -1,9 +1,7 @@
-import { successColor } from 'assets/jss/material-dashboard-react.jsx';
+import {successColor} from 'assets/jss/material-dashboard-react.jsx';
 
 const dashboardStyle = {
-  successText: {
-    color: successColor
-  },
+  successText: {color: successColor},
   upArrowCardCategory: {
     width: '16px',
     height: '16px'

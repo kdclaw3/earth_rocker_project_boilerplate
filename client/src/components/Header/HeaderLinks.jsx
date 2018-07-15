@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Manager, Target, Popper } from 'react-popper';
+import {Manager, Target, Popper} from 'react-popper';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -21,31 +21,25 @@ import Button from 'components/CustomButtons/Button.jsx';
 import headerLinksStyle from 'assets/jss/material-dashboard-react/components/headerLinksStyle';
 
 class HeaderLinks extends React.Component {
-  state = {
-    open: false
-  };
+  state = {open: false};
   handleClick = () => {
-    this.setState({ open: !this.state.open });
+    this.setState({open: !this.state.open});
   };
 
   handleClose = () => {
-    this.setState({ open: false });
+    this.setState({open: false});
   };
   render () {
-    const { classes } = this.props;
-    const { open } = this.state;
+    const {classes} = this.props;
+    const {open} = this.state;
     return (
       <div>
         <div className={classes.searchWrapper}>
           <CustomInput
-            formControlProps={{
-              className: classes.margin + ' ' + classes.search
-            }}
+            formControlProps={{className: classes.margin + ' ' + classes.search}}
             inputProps={{
               placeholder: 'Search',
-              inputProps: {
-                'aria-label': 'Search'
-              }
+              inputProps: {'aria-label': 'Search'}
             }}
           />
           <Button color="white" aria-label="edit" justIcon round>
@@ -89,7 +83,7 @@ class HeaderLinks extends React.Component {
             placement="bottom-start"
             eventsEnabled={open}
             className={
-              classNames({ [classes.popperClose]: !open }) +
+              classNames({[classes.popperClose]: !open}) +
               ' ' +
               classes.pooperResponsive
             }
@@ -98,7 +92,7 @@ class HeaderLinks extends React.Component {
               <Grow
                 in={open}
                 id="menu-list"
-                style={{ transformOrigin: '0 0 0' }}
+                style={{transformOrigin: '0 0 0'}}
               >
                 <Paper className={classes.dropdown}>
                   <MenuList role="menu">

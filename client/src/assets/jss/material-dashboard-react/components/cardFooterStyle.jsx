@@ -10,9 +10,7 @@ const cardFooterStyle = {
     backgroundColor: 'transparent',
     border: '0'
   },
-  cardFooterProfile: {
-    marginTop: '-15px'
-  },
+  cardFooterProfile: {marginTop: '-15px'},
   cardFooterPlain: {
     paddingLeft: '5px',
     paddingRight: '5px',
@@ -30,9 +28,7 @@ const cardFooterStyle = {
       height: '16px'
     }
   },
-  cardFooterChart: {
-    borderTop: '1px solid #eee'
-  }
+  cardFooterChart: {borderTop: '1px solid #eee'}
 };
 
 export default cardFooterStyle;

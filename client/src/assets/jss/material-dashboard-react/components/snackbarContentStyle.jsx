@@ -23,12 +23,8 @@ const snackbarContentStyle = {
     boxShadow:
       '0 12px 20px -10px rgba(255, 255, 255, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 255, 255, 0.2)'
   },
-  top20: {
-    top: '20px'
-  },
-  top40: {
-    top: '40px'
-  },
+  top20: {top: '20px'},
+  top40: {top: '40px'},
   info: {
     backgroundColor: '#00d3ee',
     color: '#ffffff',
@@ -81,24 +77,12 @@ const snackbarContentStyle = {
     width: '30px',
     height: '30px'
   },
-  infoIcon: {
-    color: '#00d3ee'
-  },
-  successIcon: {
-    color: '#5cb860'
-  },
-  warningIcon: {
-    color: '#ffa21a'
-  },
-  dangerIcon: {
-    color: '#f55a4e'
-  },
-  primaryIcon: {
-    color: '#af2cc5'
-  },
-  roseIcon: {
-    color: '#eb3573'
-  },
+  infoIcon: {color: '#00d3ee'},
+  successIcon: {color: '#5cb860'},
+  warningIcon: {color: '#ffa21a'},
+  dangerIcon: {color: '#f55a4e'},
+  primaryIcon: {color: '#af2cc5'},
+  roseIcon: {color: '#eb3573'},
   iconMessage: {
     paddingLeft: '50px',
     display: 'block'

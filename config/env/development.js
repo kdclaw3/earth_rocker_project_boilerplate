@@ -80,7 +80,6 @@ module.exports = {
   },
 
 
-
   models: {
 
     /*
@@ -109,7 +108,6 @@ module.exports = {
   },
 
 
-
   /*
    *
    * Always disable "shortcut" blueprint routes.
@@ -121,7 +119,6 @@ module.exports = {
    *
    */
   blueprints: {shortcuts: false},
-
 
 
   /*
@@ -157,7 +154,6 @@ module.exports = {
     }
 
   },
-
 
 
   /*
@@ -203,7 +199,6 @@ module.exports = {
      */
 
 
-
     /*
      *
      * development configuration for the session ID cookie.
@@ -233,7 +228,6 @@ module.exports = {
   },
 
 
-
   /*
    *
    * Set up Socket.io for your  development environment.
@@ -255,9 +249,7 @@ module.exports = {
      * > Be sure to use the right protocol!  ("http://" vs. "https://")
      *
      */
-    onlyAllowOrigins: [
-      'https://localhost:1337'
-    ]
+    onlyAllowOrigins: ['https://localhost:1337']
 
 
     /*
@@ -289,7 +281,6 @@ module.exports = {
   },
 
 
-
   /*
    *
    * Set the  development log level.
@@ -298,7 +289,6 @@ module.exports = {
    *
    */
   log: {level: 'info'},
-
 
 
   http: {
@@ -331,7 +321,6 @@ module.exports = {
   },
 
 
-
   /*
    *
    * Lift the server on port 80.
@@ -342,7 +331,6 @@ module.exports = {
    *
    */
   // port: 80,
-
 
 
   /*
@@ -363,7 +351,6 @@ module.exports = {
    *
    */
   // ssl: undefined,
-
 
 
   /*
@@ -396,7 +383,6 @@ module.exports = {
      */
 
   }
-
 
 
 };

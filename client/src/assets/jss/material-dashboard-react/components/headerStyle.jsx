@@ -31,9 +31,7 @@ const headerStyle = theme => ({
     ...container,
     minHeight: '50px'
   },
-  flex: {
-    flex: 1
-  },
+  flex: {flex: 1},
   title: {
     ...defaultFont,
     'lineHeight': '30px',
@@ -41,13 +39,9 @@ const headerStyle = theme => ({
     'borderRadius': '3px',
     'textTransform': 'none',
     'color': 'inherit',
-    '&:hover,&:focus': {
-      background: 'transparent'
-    }
+    '&:hover,&:focus': {background: 'transparent'}
   },
-  appResponsive: {
-    top: '8px'
-  },
+  appResponsive: {top: '8px'},
   primary: {
     backgroundColor: primaryColor,
     color: '#FFFFFF',

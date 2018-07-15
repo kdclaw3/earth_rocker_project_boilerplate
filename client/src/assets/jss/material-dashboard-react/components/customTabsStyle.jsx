@@ -8,12 +8,8 @@ const customTabsStyle = {
     'float': 'right',
     'padding': '10px 0px 10px 10px !important'
   },
-  displayNone: {
-    display: 'none !important'
-  },
-  tabsRoot: {
-    minHeight: 'unset !important'
-  },
+  displayNone: {display: 'none !important'},
+  tabsRoot: {minHeight: 'unset !important'},
   tabRootButton: {
     'minHeight': 'unset !important',
     'minWidth': 'unset !important',
@@ -27,13 +23,9 @@ const customTabsStyle = {
     'border': '0 !important',
     'color': '#fff !important',
     'marginLeft': '4px',
-    '&:last-child': {
-      marginLeft: '0px'
-    }
+    '&:last-child': {marginLeft: '0px'}
   },
-  tabLabelContainer: {
-    padding: '0px'
-  },
+  tabLabelContainer: {padding: '0px'},
   tabLabel: {
     fontWeight: '500',
     fontSize: '12px'

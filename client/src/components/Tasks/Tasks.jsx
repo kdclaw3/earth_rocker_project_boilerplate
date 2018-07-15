@@ -17,11 +17,9 @@ import Check from '@material-ui/icons/Check';
 import tasksStyle from 'assets/jss/material-dashboard-react/components/tasksStyle.jsx';
 
 class Tasks extends React.Component {
-  state = {
-    checked: this.props.checkedIndexes
-  };
+  state = {checked: this.props.checkedIndexes};
   handleToggle = value => () => {
-    const { checked } = this.state;
+    const {checked} = this.state;
     const currentIndex = checked.indexOf(value);
     const newChecked = [...checked];
 
@@ -31,12 +29,10 @@ class Tasks extends React.Component {
       newChecked.splice(currentIndex, 1);
     }
 
-    this.setState({
-      checked: newChecked
-    });
+    this.setState({checked: newChecked});
   };
   render () {
-    const { classes, tasksIndexes, tasks } = this.props;
+    const {classes, tasksIndexes, tasks} = this.props;
     return (
       <Table className={classes.table}>
         <TableBody>
@@ -49,9 +45,7 @@ class Tasks extends React.Component {
                   onClick={this.handleToggle(value)}
                   checkedIcon={<Check className={classes.checkedIcon} />}
                   icon={<Check className={classes.uncheckedIcon} />}
-                  classes={{
-                    checked: classes.checked
-                  }}
+                  classes={{checked: classes.checked}}
                 />
               </TableCell>
               <TableCell className={classes.tableCell}>
@@ -62,7 +56,7 @@ class Tasks extends React.Component {
                   id="tooltip-top"
                   title="Edit Task"
                   placement="top"
-                  classes={{ tooltip: classes.tooltip }}
+                  classes={{tooltip: classes.tooltip}}
                 >
                   <IconButton
                     aria-label="Edit"
@@ -79,7 +73,7 @@ class Tasks extends React.Component {
                   id="tooltip-top-start"
                   title="Remove"
                   placement="top"
-                  classes={{ tooltip: classes.tooltip }}
+                  classes={{tooltip: classes.tooltip}}
                 >
                   <IconButton
                     aria-label="Close"

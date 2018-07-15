@@ -19,9 +19,7 @@ const cardHeaderStyle = {
       position: 'relative',
       color: '#FFFFFF'
     },
-    '&:first-child': {
-      borderRadius: 'calc(.25rem - 1px) calc(.25rem - 1px) 0 0'
-    },
+    '&:first-child': {borderRadius: 'calc(.25rem - 1px) calc(.25rem - 1px) 0 0'},
     '&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader': {
       '&:not($cardHeaderIcon)': {
         borderRadius: '3px',
@@ -44,21 +42,15 @@ const cardHeaderStyle = {
       height: '56px',
       textAlign: 'center'
     },
-    '&$cardHeaderStats$cardHeaderIcon': {
-      textAlign: 'right'
-    }
+    '&$cardHeaderStats$cardHeaderIcon': {textAlign: 'right'}
   },
   cardHeaderPlain: {
     marginLeft: '0px !important',
     marginRight: '0px !important'
   },
   cardHeaderStats: {
-    '& $cardHeaderIcon': {
-      textAlign: 'right'
-    },
-    '& h1,& h2,& h3,& h4,& h5,& h6': {
-      margin: '0 !important'
-    }
+    '& $cardHeaderIcon': {textAlign: 'right'},
+    '& h1,& h2,& h3,& h4,& h5,& h6': {margin: '0 !important'}
   },
   cardHeaderIcon: {
     '&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader': {
@@ -81,39 +73,27 @@ const cardHeaderStyle = {
   },
   warningCardHeader: {
     'color': '#FFFFFF',
-    '&:not($cardHeaderIcon)': {
-      ...warningCardHeader
-    }
+    '&:not($cardHeaderIcon)': {...warningCardHeader}
   },
   successCardHeader: {
     'color': '#FFFFFF',
-    '&:not($cardHeaderIcon)': {
-      ...successCardHeader
-    }
+    '&:not($cardHeaderIcon)': {...successCardHeader}
   },
   dangerCardHeader: {
     'color': '#FFFFFF',
-    '&:not($cardHeaderIcon)': {
-      ...dangerCardHeader
-    }
+    '&:not($cardHeaderIcon)': {...dangerCardHeader}
   },
   infoCardHeader: {
     'color': '#FFFFFF',
-    '&:not($cardHeaderIcon)': {
-      ...infoCardHeader
-    }
+    '&:not($cardHeaderIcon)': {...infoCardHeader}
   },
   primaryCardHeader: {
     'color': '#FFFFFF',
-    '&:not($cardHeaderIcon)': {
-      ...primaryCardHeader
-    }
+    '&:not($cardHeaderIcon)': {...primaryCardHeader}
   },
   roseCardHeader: {
     'color': '#FFFFFF',
-    '&:not($cardHeaderIcon)': {
-      ...roseCardHeader
-    }
+    '&:not($cardHeaderIcon)': {...roseCardHeader}
   }
 };
 

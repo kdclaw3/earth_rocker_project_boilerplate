@@ -15,7 +15,7 @@ import Button from 'components/CustomButtons/Button';
 
 import headerStyle from 'assets/jss/material-dashboard-react/components/headerStyle.jsx';
 
-function Header ({ ...props }) {
+function Header ({...props}) {
   function makeBrand () {
     var name;
     props.routes.map((prop, key) => {
@@ -26,10 +26,8 @@ function Header ({ ...props }) {
     });
     return name;
   }
-  const { classes, color } = props;
-  const appBarClasses = classNames({
-    [' ' + classes[color]]: color
-  });
+  const {classes, color} = props;
+  const appBarClasses = classNames({[' ' + classes[color]]: color});
   return (
     <AppBar className={classes.appBar + appBarClasses}>
       <Toolbar className={classes.container}>

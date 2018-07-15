@@ -1,19 +1,25 @@
-// ##############################
-// // // javascript library for creating charts
-// #############################
+/*
+ * ##############################
+ * // // javascript library for creating charts
+ * #############################
+ */
 var Chartist = require('chartist');
 
-// ##############################
-// // // variables used to create animation on charts
-// #############################
+/*
+ * ##############################
+ * // // variables used to create animation on charts
+ * #############################
+ */
 var delays = 80,
   durations = 500;
 var delays2 = 80,
   durations2 = 500;
 
-// ##############################
-// // // Daily Sales
-// #############################
+/*
+ * ##############################
+ * // // Daily Sales
+ * #############################
+ */
 
 const dailySalesChart = {
   data: {
@@ -21,9 +27,7 @@ const dailySalesChart = {
     series: [[12, 17, 7, 17, 23, 18, 38]]
   },
   options: {
-    lineSmooth: Chartist.Interpolation.cardinal({
-      tension: 0
-    }),
+    lineSmooth: Chartist.Interpolation.cardinal({tension: 0}),
     low: 0,
     high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
@@ -42,10 +46,10 @@ const dailySalesChart = {
             begin: 600,
             dur: 700,
             from: data.path
-              .clone()
-              .scale(1, 0)
-              .translate(0, data.chartRect.height())
-              .stringify(),
+            .clone()
+            .scale(1, 0)
+            .translate(0, data.chartRect.height())
+            .stringify(),
             to: data.path.clone().stringify(),
             easing: Chartist.Svg.Easing.easeOutQuint
           }
@@ -65,9 +69,11 @@ const dailySalesChart = {
   }
 };
 
-// ##############################
-// // // Email Subscriptions
-// #############################
+/*
+ * ##############################
+ * // // Email Subscriptions
+ * #############################
+ */
 
 const emailsSubscriptionChart = {
   data: {
@@ -88,9 +94,7 @@ const emailsSubscriptionChart = {
     series: [[542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]]
   },
   options: {
-    axisX: {
-      showGrid: false
-    },
+    axisX: {showGrid: false},
     low: 0,
     high: 1000,
     chartPadding: {
@@ -130,9 +134,11 @@ const emailsSubscriptionChart = {
   }
 };
 
-// ##############################
-// // // Completed Tasks
-// #############################
+/*
+ * ##############################
+ * // // Completed Tasks
+ * #############################
+ */
 
 const completedTasksChart = {
   data: {
@@ -140,9 +146,7 @@ const completedTasksChart = {
     series: [[230, 750, 450, 300, 280, 240, 200, 190]]
   },
   options: {
-    lineSmooth: Chartist.Interpolation.cardinal({
-      tension: 0
-    }),
+    lineSmooth: Chartist.Interpolation.cardinal({tension: 0}),
     low: 0,
     high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
@@ -160,10 +164,10 @@ const completedTasksChart = {
             begin: 600,
             dur: 700,
             from: data.path
-              .clone()
-              .scale(1, 0)
-              .translate(0, data.chartRect.height())
-              .stringify(),
+            .clone()
+            .scale(1, 0)
+            .translate(0, data.chartRect.height())
+            .stringify(),
             to: data.path.clone().stringify(),
             easing: Chartist.Svg.Easing.easeOutQuint
           }

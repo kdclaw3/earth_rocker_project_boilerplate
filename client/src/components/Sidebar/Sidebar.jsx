@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
 import Drawer from '@material-ui/core/Drawer';
@@ -15,12 +15,12 @@ import HeaderLinks from 'components/Header/HeaderLinks.jsx';
 
 import sidebarStyle from 'assets/jss/material-dashboard-react/components/sidebarStyle.jsx';
 
-const Sidebar = ({ ...props }) => {
+const Sidebar = ({...props}) => {
   // verifies if routeName is the one active (in browser input)
   function activeRoute (routeName) {
     return props.location.pathname.indexOf(routeName) > -1 ? true : false;
   }
-  const { classes, color, logo, image, logoText, routes } = props;
+  const {classes, color, logo, image, logoText, routes} = props;
   var links = (
     <List className={classes.list}>
       {routes.map((prop, key) => {
@@ -29,17 +29,11 @@ const Sidebar = ({ ...props }) => {
         var listItemClasses;
         if(prop.path === '/upgrade-to-pro') {
           activePro = classes.activePro + ' ';
-          listItemClasses = classNames({
-            [' ' + classes[color]]: true
-          });
+          listItemClasses = classNames({[' ' + classes[color]]: true});
         } else {
-          listItemClasses = classNames({
-            [' ' + classes[color]]: activeRoute(prop.path)
-          });
+          listItemClasses = classNames({[' ' + classes[color]]: activeRoute(prop.path)});
         }
-        const whiteFontClasses = classNames({
-          [' ' + classes.whiteFont]: activeRoute(prop.path)
-        });
+        const whiteFontClasses = classNames({[' ' + classes.whiteFont]: activeRoute(prop.path)});
         return (
           <NavLink
             to={prop.path}
@@ -79,12 +73,9 @@ const Sidebar = ({ ...props }) => {
           variant="temporary"
           anchor="right"
           open={props.open}
-          classes={{
-            paper: classes.drawerPaper
-          }}
+          classes={{paper: classes.drawerPaper}}
           onClose={props.handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true // Better open performance on mobile.
+          ModalProps={{keepMounted: true // Better open performance on mobile.
           }}
         >
           {brand}
@@ -95,7 +86,7 @@ const Sidebar = ({ ...props }) => {
           {image !== undefined ? (
             <div
               className={classes.background}
-              style={{ backgroundImage: 'url(' + image + ')' }}
+              style={{backgroundImage: 'url(' + image + ')'}}
             />
           ) : null}
         </Drawer>
@@ -105,16 +96,14 @@ const Sidebar = ({ ...props }) => {
           anchor="left"
           variant="permanent"
           open
-          classes={{
-            paper: classes.drawerPaper
-          }}
+          classes={{paper: classes.drawerPaper}}
         >
           {brand}
           <div className={classes.sidebarWrapper}>{links}</div>
           {image !== undefined ? (
             <div
               className={classes.background}
-              style={{ backgroundImage: 'url(' + image + ')' }}
+              style={{backgroundImage: 'url(' + image + ')'}}
             />
           ) : null}
         </Drawer>
@@ -123,8 +112,6 @@ const Sidebar = ({ ...props }) => {
   );
 };
 
-Sidebar.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+Sidebar.propTypes = {classes: PropTypes.object.isRequired};
 
 export default withStyles(sidebarStyle)(Sidebar);

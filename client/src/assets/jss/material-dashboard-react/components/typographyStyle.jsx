@@ -32,24 +32,12 @@ const typographyStyle = {
     lineHeight: '1.42857143',
     color: '#777'
   },
-  mutedText: {
-    color: '#777'
-  },
-  primaryText: {
-    color: primaryColor
-  },
-  infoText: {
-    color: infoColor
-  },
-  successText: {
-    color: successColor
-  },
-  warningText: {
-    color: warningColor
-  },
-  dangerText: {
-    color: dangerColor
-  }
+  mutedText: {color: '#777'},
+  primaryText: {color: primaryColor},
+  infoText: {color: infoColor},
+  successText: {color: successColor},
+  warningText: {color: warningColor},
+  dangerText: {color: dangerColor}
 };
 
 export default typographyStyle;

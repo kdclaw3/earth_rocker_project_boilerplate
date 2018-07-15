@@ -12,7 +12,7 @@ import Check from '@material-ui/icons/Check';
 // core components
 import customInputStyle from 'assets/jss/material-dashboard-react/components/customInputStyle';
 
-function CustomInput ({ ...props }) {
+function CustomInput ({...props}) {
   const {
     classes,
     formControlProps,
@@ -33,9 +33,7 @@ function CustomInput ({ ...props }) {
     [classes.underlineSuccess]: success && !error,
     [classes.underline]: true
   });
-  const marginTop = classNames({
-    [classes.marginTop]: labelText === undefined
-  });
+  const marginTop = classNames({[classes.marginTop]: labelText === undefined});
   return (
     <FormControl
       {...formControlProps}

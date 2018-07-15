@@ -1,6 +1,6 @@
 import React from 'react';
-import { hot } from 'react-hot-loader';
-import { BrowserRouter, Route } from 'react-router-dom';
+import {hot} from 'react-hot-loader';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 import Dashboard from 'layouts/Dashboard/Dashboard.jsx';
 

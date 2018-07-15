@@ -8,9 +8,7 @@ import dropdownStyle from 'assets/jss/material-dashboard-react/dropdownStyle.jsx
 const headerLinksStyle = theme => ({
   ...dropdownStyle(theme),
   search: {
-    '& > div': {
-      marginTop: '0'
-    },
+    '& > div': {marginTop: '0'},
     [theme.breakpoints.down('sm')]: {
       'margin': '10px 15px !important',
       'float': 'none !important',
@@ -19,9 +17,7 @@ const headerLinksStyle = theme => ({
       'padding': '0!important',
       'width': '60%',
       'marginTop': '40px',
-      '& input': {
-        color: '#FFFFFF'
-      }
+      '& input': {color: '#FFFFFF'}
     }
   },
   linkText: {
@@ -41,9 +37,7 @@ const headerLinksStyle = theme => ({
         marginRight: '15px',
         marginLeft: '-15px'
       },
-      '& > span': {
-        justifyContent: 'flex-start'
-      }
+      '& > span': {justifyContent: 'flex-start'}
     }
   },
   searchButton: {
@@ -86,9 +80,7 @@ const headerLinksStyle = theme => ({
     }
   },
   manager: {
-    [theme.breakpoints.down('sm')]: {
-      width: '100%'
-    },
+    [theme.breakpoints.down('sm')]: {width: '100%'},
     display: 'inline-block'
   },
   searchWrapper: {

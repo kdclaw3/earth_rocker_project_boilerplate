@@ -10,7 +10,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 // core components
 import cardStyle from 'assets/jss/material-dashboard-react/components/cardStyle.jsx';
 
-function Card ({ ...props }) {
+function Card ({...props}) {
   const {
     classes,
     className,

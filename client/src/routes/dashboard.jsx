@@ -74,7 +74,7 @@ const dashboardRoutes = [
     icon: Unarchive,
     component: UpgradeToPro
   },
-  { redirect: true, path: '/', to: '/dashboard', navbarName: 'Redirect' }
+  {redirect: true, path: '/', to: '/dashboard', navbarName: 'Redirect'}
 ];
 
 export default dashboardRoutes;

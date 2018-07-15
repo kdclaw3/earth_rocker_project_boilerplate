@@ -18,9 +18,7 @@ const styles = {
       marginTop: '0',
       marginBottom: '0'
     },
-    '& a,& a:hover,& a:focus': {
-      color: '#FFFFFF'
-    }
+    '& a,& a:hover,& a:focus': {color: '#FFFFFF'}
   },
   cardTitleWhite: {
     'color': '#FFFFFF',
@@ -40,7 +38,7 @@ const styles = {
 };
 
 function TableList (props) {
-  const { classes } = props;
+  const {classes} = props;
   return (
     <Grid container>
       <GridItem xs={12} sm={12} md={12}>

@@ -11,9 +11,7 @@ const appStyle = theme => ({
     height: '100vh'
   },
   mainPanel: {
-    [theme.breakpoints.up('md')]: {
-      width: `calc(100% - ${drawerWidth}px)`
-    },
+    [theme.breakpoints.up('md')]: {width: `calc(100% - ${drawerWidth}px)`},
     'overflow': 'auto',
     'position': 'relative',
     'float': 'right',
@@ -28,9 +26,7 @@ const appStyle = theme => ({
     minHeight: 'calc(100vh - 123px)'
   },
   container,
-  map: {
-    marginTop: '70px'
-  }
+  map: {marginTop: '70px'}
 });
 
 export default appStyle;
