@@ -21,6 +21,9 @@
 
 module.exports = {
 
+  jobmanager: {enabled: false},
+
+  webpackmiddleware: {enabled: false},
 
   /*
    *
