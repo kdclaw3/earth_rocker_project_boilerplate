@@ -11,9 +11,7 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module',
     allowImportExportEverywhere: false,
-    ecmaFeatures: {
-      jsx: true
-    }
+    ecmaFeatures: {jsx: true}
   },
   'plugins': [
     'react'
@@ -42,6 +40,7 @@ module.exports = {
     'no-multi-spaces': 'warn',
     'no-trailing-spaces': 'warn',
     'no-whitespace-before-property': 'warn',
+    'object-curly-newline': ['warn', { multiline: true }],
     'operator-linebreak': ['warn', 'after'],
     'semi': ['warn', 'always'],
     'semi-spacing': ['warn', {before: false, after: true}],
