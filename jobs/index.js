@@ -4,7 +4,7 @@ const hourly = 60, daily = 1440;
 module.exports = {
 
   /**
-   * Sample Properties
+   * Sample Propies
    * @property {integer}    interval  - in minutes, minimum interval is 1 minute
    * @property {date}       start     - time to start the job
    * @property {function}   run       - function to run
