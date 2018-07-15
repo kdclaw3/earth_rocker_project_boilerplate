@@ -1,4 +1,4 @@
-/**
+/*
  * Datastores
  * (sails.config.datastores)
  *
@@ -16,8 +16,8 @@
 module.exports.datastores = {
 
 
-  /**
-   * *************************************************************************
+  /*
+   * *
    *                                                                         *
    * Your app's default datastore.                                           *
    *                                                                         *
@@ -31,7 +31,7 @@ module.exports.datastores = {
    *                                                                         *
    * (For production configuration, see `config/env/production.js`.)         *
    *                                                                         *
-   **************************************************************************
+   *
    */
 
   'default': {

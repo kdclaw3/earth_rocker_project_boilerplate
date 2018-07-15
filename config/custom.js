@@ -1,4 +1,4 @@
-/**
+/*
  * Custom configuration
  * (sails.config.custom)
  *

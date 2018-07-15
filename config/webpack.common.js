@@ -1,4 +1,4 @@
-/**
+/*
  * Module dependencies
  */
 const path = require('path');
@@ -33,9 +33,7 @@ module.exports = {
     publicPath: '/'
   },
 
-  resolve: {
-    extensions: ['.js', '.jsx']
-  },
+  resolve: {extensions: ['.js', '.jsx']},
 
   module: {
     rules: [
@@ -62,9 +60,7 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.ProgressPlugin({
-      profile: false
-    }),
+    new webpack.ProgressPlugin({profile: false}),
     new CleanWebpackPlugin(path.resolve(__dirname, OUTPUT_DIR), {
       root: path.resolve(__dirname, '..'),
       verbose: true
@@ -78,8 +74,10 @@ module.exports = {
     ]),
     new CaseSensitivePathsPlugin(),
     new MiniCssExtractPlugin({
-      // Options similar to the same options in webpackOptions.output
-      // both options are optional
+      /*
+       * Options similar to the same options in webpackOptions.output
+       * both options are optional
+       */
       filename: 'style.[name].css'
       // chunkFilename: "[id].css"
     })

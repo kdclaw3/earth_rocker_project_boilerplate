@@ -1,4 +1,4 @@
-/**
+/*
  * Bootstrap
  * (sails.config.bootstrap)
  *

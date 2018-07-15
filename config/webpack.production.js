@@ -1,4 +1,4 @@
-/**
+/*
  * Module dependencies
  */
 const path = require('path');
@@ -15,15 +15,11 @@ module.exports = merge(common, {
 
   mode: 'production',
 
-  entry: {
-    main: [path.resolve(__dirname, APP_DIR + 'index.jsx')]
-  },
+  entry: {main: [path.resolve(__dirname, APP_DIR + 'index.jsx')]},
 
   plugins: [
     // new BundleAnalyzerPlugin(),
-    new MinifyPlugin({}, {
-      comments: false
-    })
+    new MinifyPlugin({}, {comments: false})
 
   ]
 
