@@ -33,9 +33,9 @@ module.exports = {
     'eqeqeq': 'warn',
     'func-call-spacing': ['warn', 'never'],
     'indent': ['warn', 2, {MemberExpression: 0}],
-    'linebreak-style': ['warn', 'unix'],
     'jsx-quotes': ['warn', 'prefer-double'],
     'key-spacing': ['warn', {beforeColon: false, afterColon: true}],
+    'linebreak-style': ['warn', 'unix'],
     'multiline-comment-style': ['warn', 'starred-block'],
     'no-multi-spaces': 'warn',
     'no-multiple-empty-lines': ['warn', {max: 2, maxBOF: 0, maxEOF: 0}],
@@ -43,19 +43,19 @@ module.exports = {
     'no-whitespace-before-property': 'warn',
     'object-curly-newline': ['warn', {multiline: true}],
     'object-curly-spacing': ['warn', 'never'],
+    'quote-props': ['warn', 'consistent-as-needed', {keywords: true, numbers: true, unnecessary: true}],
+    'quotes': ['warn', 'single', {allowTemplateLiterals: true}],
     'semi': ['warn', 'always'],
     'semi-spacing': ['warn', {before: false, after: true}],
     'semi-style': ['warn', 'last'],
     'space-before-blocks': 'warn',
     'space-before-function-paren': ['warn', 'always'],
+    'space-in-parens': 'warn',
     'space-infix-ops': 'warn',
     'spaced-comment': ['warn', 'always'],
-    'quote-props': ['warn', 'consistent-as-needed', {keywords: true, numbers: true, unnecessary: true}],
-    'quotes': ['warn', 'single', {allowTemplateLiterals: true}],
     'yoda': ['warn', 'never', {exceptRange: true}]
 
     // override eslint eslint:recommended
-
 
     // disable eslint eslint:recommended
 

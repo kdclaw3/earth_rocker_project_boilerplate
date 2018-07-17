@@ -27,7 +27,7 @@ module.exports = {
 
   everyTwoMinues: {
     interval: 2, // runs every 2 minutes
-    start: new Date( moment().startOf('hour').add(2, 'minutes') ), // on the 2s of the hour
+    start: new Date(moment().startOf('hour').add(2, 'minutes')), // on the 2s of the hour
     run: () => { // simple function
       sails.log.info('[everyTwoMinues] this job runs every 2 minutes.');
     }
@@ -35,7 +35,7 @@ module.exports = {
 
   everyFiveMinues: {
     interval: 5, // runs every 5 minutes
-    start: new Date( moment().startOf('hour').add(5, 'minutes') ), // on the 5s of the hour
+    start: new Date(moment().startOf('hour').add(5, 'minutes')), // on the 5s of the hour
     run: () => { // simple function
       sails.log.info('[everyFiveMinues] this job runs every 5 minute.');
     }
@@ -43,7 +43,7 @@ module.exports = {
 
   everyHour: {
     interval: hourly, // runs every hour
-    start: new Date( moment().startOf('hour').add(45, 'minutes') ), // on the 45 of the hour
+    start: new Date(moment().startOf('hour').add(45, 'minutes')), // on the 45 of the hour
     run: () => { // simple function
       sails.log.info('[everyHour] this job runs every hour.');
     }
@@ -51,7 +51,7 @@ module.exports = {
 
   everyDay: {
     interval: daily, // runs every day
-    start: new Date( moment().startOf('day').add(10, 'hours').add(35, 'minutes') ), // at 10:35
+    start: new Date(moment().startOf('day').add(10, 'hours').add(35, 'minutes')), // at 10:35
     run: () => { // simple function
       sails.log.info('[everyDay] this job runs once a day.');
     }
