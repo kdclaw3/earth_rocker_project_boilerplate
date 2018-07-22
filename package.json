@@ -64,7 +64,7 @@
   "scripts": {
     "job": "NODE_ENV=jobmanager node app.js",
     "dev": "NODE_ENV=development node app.js",
-    "prod": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --config ./config/webpack.production.js && NODE_ENV=production ./node_modules/forever/bin/forever app.js",
+    "prod": "NODE_ENV=production webpack --config ./config/webpack.production.js && NODE_ENV=production forever app.js",
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
     "webpack:analyze": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --config ./config/webpack.production.js --profile --json > stats.json",
     "lint": "eslint . --ext=js,jsx --fix;  exit 0",
