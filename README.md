@@ -28,7 +28,7 @@ $ npm install
 Development uses webpack-dev-middleware, webpack-hot-middleware, and react-hot-loader to rebuild the react project during develoment.
 
 ```sh
-$ npm run-script dev
+$ npm run dev
 ```
 
 ### Run Production
@@ -36,7 +36,7 @@ $ npm run-script dev
 Production uses webpack cli to build the react project, and forever to launch and maintain the application in case of a crash. 
 
 ```sh
-$ npm run-script prod
+$ npm run prod
 ```
 
 ### License
