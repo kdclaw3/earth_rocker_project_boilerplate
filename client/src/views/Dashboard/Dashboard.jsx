@@ -6,9 +6,9 @@ import ChartistGraph from 'react-chartist';
 import withStyles from '@material-ui/core/styles/withStyles';
 import Grid from '@material-ui/core/Grid';
 // @material-ui/icons
-import ContentCopy from '@material-ui/icons/ContentCopy';
+import ContentCopy from '@material-ui/icons/FileCopy'; // Not available in 2.0 '@material-ui/icons/ContentCopy';
 import Store from '@material-ui/icons/Store';
-import InfoOutline from '@material-ui/icons/InfoOutline';
+import InfoOutline from '@material-ui/icons/InfoOutlined'; // 2.0 "themed icon change" '@material-ui/icons/InfoOutline';
 import Warning from '@material-ui/icons/Warning';
 import DateRange from '@material-ui/icons/DateRange';
 import LocalOffer from '@material-ui/icons/LocalOffer';
@@ -99,7 +99,7 @@ class Dashboard extends React.Component {
             <Card>
               <CardHeader color="danger" stats icon>
                 <CardIcon color="danger">
-                  <InfoOutline />
+                  <InfoOutline/>
                 </CardIcon>
                 <p className={classes.cardCategory}>Fixed Issues</p>
                 <h3 className={classes.cardTitle}>75</h3>
