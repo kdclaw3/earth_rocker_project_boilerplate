@@ -39,7 +39,7 @@ module.exports = {
     rules: [
       {
         test: /\.jsx?$/,
-        loader: ['babel-loader'],
+        loader: ['babel-loader?cacheDirectory=true'],
         exclude: /(node_modules|lowdash)/
       },
       {
