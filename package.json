@@ -82,7 +82,8 @@
 	},
 	"optionalDependencies": {
 		"babel-eslint": "^8.2.x",
-		"eslint": "^5.1.x",
+		"eslint": "^5.2.x",
+		"eslint-config-earthrocker": "^1.1.x",
 		"eslint-plugin-react": "^7.10.x"
 	}
 }
